@@ -215,5 +215,5 @@ Agent 自己列的局限：本次审计基于有限的样本问题（n=900）和
   Qwen/Qwen3.6-35B-A3B 标价 输入¥1.8/M、输出¥10.8/M、缓存命中价未列出、估算按输入价计；来源 https://www.siliconflow.cn/pricing，查阅日期 2026-11-14（Asia/Shanghai）。此为按返回 token 与标价估算，不是账单原件。
 - `zai-org/GLM-4.5-Air`：n=300（本次新调用 0），prompt=62858，completion=46017，若按标价计全部 token 约 ¥0.33896000000000004；本次会话估算 ¥0.000000。
   zai-org/GLM-4.5-Air 标价 输入¥1.0/M、输出¥6.0/M、缓存命中价未列出、估算按输入价计；来源 https://www.siliconflow.cn/pricing，查阅日期 2026-11-14（Asia/Shanghai）。此为按返回 token 与标价估算，不是账单原件。
-累计估算（本进程已记录，见 COST.md）进程内累计 4.324086 元。
+累计估算（本进程已记录，见 docs/COST.md）进程内累计 4.324086 元。
 

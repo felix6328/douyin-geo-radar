@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild COST.md from data/cost/llm.jsonl. Does not call the API. Never prints keys."""
+"""Rebuild docs/COST.md from data/cost/llm.jsonl. Does not call the API. Never prints keys."""
 from __future__ import annotations
 
 import json
@@ -29,7 +29,7 @@ def load_rows() -> list[dict]:
 def main() -> None:
     rows = load_rows()
     if not rows:
-        raise SystemExit("no cost log at data/cost/llm.jsonl; cannot rebuild COST.md")
+        raise SystemExit("no cost log at data/cost/llm.jsonl; cannot rebuild docs/COST.md")
 
     by: dict[tuple[str, str], dict] = defaultdict(lambda: dict(n=0, p=0, c=0, h=0, cost=0.0))
     for r in rows:
@@ -66,8 +66,8 @@ def main() -> None:
     def fy(x):
         return f"{x:.6f}"
 
-    dest = ROOT / "COST.md"
-    # Keep the hand-written COST.md as the committed narrative; this script
+    dest = ROOT / "docs/COST.md"
+    # Keep the hand-written docs/COST.md as the committed narrative; this script
     # prints a machine check and optionally overwrites the numeric tables
     # only when --write is passed. Default is a consistency check.
     print(
@@ -81,13 +81,13 @@ def main() -> None:
     if expected not in text.replace(",", ""):
         # allow 9.617151 in the file
         if "9.617151" not in text and expected not in text:
-            print("WARNING: COST.md total does not contain the current jsonl total", expected)
+            print("WARNING: docs/COST.md total does not contain the current jsonl total", expected)
         else:
-            print("COST.md total string matches")
+            print("docs/COST.md total string matches")
     else:
-        print("COST.md total string matches")
+        print("docs/COST.md total string matches")
     if "--write" in sys.argv:
-        print("refusing to blindly overwrite narrative COST.md; edit the markdown if totals change")
+        print("refusing to blindly overwrite narrative docs/COST.md; edit the markdown if totals change")
 
 
 if __name__ == "__main__":

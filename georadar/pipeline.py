@@ -455,7 +455,7 @@ def write_results_md(
 
     lines.append("## 费用（估算）")
     lines.append("")
-    lines.append(extra.get("cost_block") or "见 COST.md")
+    lines.append(extra.get("cost_block") or "见 docs/COST.md")
     lines.append("")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -579,7 +579,7 @@ def cost_summary_from_rows(answer_rows: list[dict], extra_note: str = "") -> str
             total_session += v["session_cny"]
         if note:
             lines.append(f"  {note}")
-    lines.append(f"累计估算（本进程已记录，见 COST.md）进程内累计 {cumulative_spend_cny():.6f} 元。{extra_note}")
+    lines.append(f"累计估算（本进程已记录，见 docs/COST.md）进程内累计 {cumulative_spend_cny():.6f} 元。{extra_note}")
     return "\n".join(lines)
 
 

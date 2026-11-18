@@ -16,3 +16,6 @@ data/cache/**
 # snapshots live under eval/ and data/answers/snapshots/
 .idea/
 .vscode/
+
+# misc
+*.zip

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Pack the repo for the author. Never include secrets, venv, or API caches.
+# Pack the repo into a zip. Never include secrets, venv, or API caches.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 OUT="${1:-/workspace/geo.zip}"

@@ -391,7 +391,7 @@ def write_results_md(
     lines.append("")
     lines.append(cost_block_text)
     lines.append("")
-    lines.append("两端项目的合计估算见仓库根目录 `COST.md`。费用是按硅基流动价格页标价与返回 token 的估算，查阅日期 2026-11-14（Asia/Shanghai），不是账单原件。")
+    lines.append("两端项目的合计估算见 `docs/COST.md`。费用是按硅基流动价格页标价与返回 token 的估算，查阅日期 2026-11-14（Asia/Shanghai），不是账单原件。")
     lines.append("")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
