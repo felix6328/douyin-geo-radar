@@ -1,0 +1,1425 @@
+{
+  "status": "auto_draft_unreviewed",
+  "note": "自动起草，未经人工审阅。human_* 字段为空，审完之前不得把抽取器准确率写入简历。",
+  "items": [
+    {
+      "query_id": "Q116",
+      "query_text": "三顿半和永璞的冻干，日常冲泡差别大吗？",
+      "category": "coffee",
+      "qtype": "品牌对比",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 0,
+      "answer": "三顿半与永璞冻干咖啡的主要差异在于风味和溶解方式，日常冲泡体验确实有差别。\n\n**三顿半**：多数产品主打明亮果酸和层次感（依据官方描述与用户口碑），冷水溶解快，适合直接加冰水/牛奶做冷饮，适合喜欢清爽果酸、追求便捷的上班族。\n\n**永璞**：风味更偏向醇厚、均衡（依据官方描述与用户口碑），部分产品溶解后口感接近现磨，热水冲泡表现更佳，适合喜欢醇厚黑咖啡或热饮、对风味均衡度要求更高的用户。\n\n**总结**：\n- 偏好果酸、常喝冷萃或冰拿铁 → 选三顿半。\n- 偏好醇厚、常喝热美式或追求更接近现磨口感 → 选永璞。",
+      "auto_brands_rule": [
+        "sanfun",
+        "yongpu"
+      ],
+      "auto_brands_llm": [
+        "sanfun",
+        "yongpu"
+      ],
+      "auto_first_rule": "sanfun",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q055",
+      "query_text": "漫步者和声阔在千元以内各有什么特点？",
+      "category": "headphones",
+      "qtype": "品牌对比",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 0,
+      "answer": "漫步者（Edifier）与声阔（Soundcore）在千元以内各有侧重，适合不同需求的用户：\n\n**漫步者：性价比与有线/入门无线兼顾**\n*   **特点**：品牌积淀深，音质调校偏向传统Hi-Fi风味，解析力不错。产品线极广，从百元级有线耳机到千元内TWS均有覆盖，售后网点多。\n*   **适合人群**：对音质有基础追求、喜欢有线连接稳定性或预算有限但想要大厂保障的用户。\n*   **推荐方向**：关注其花再系列（TWS）或EDIFIER Lolli系列，适合学生党或入门Hi-Fi爱好者。\n\n**声阔（Soundcore）：智能降噪与APP生态丰富**\n*   **特点**：安克创新旗下品牌，强项在于主动降噪（ANC）算法和APP功能丰富度（如EQ调节、佩戴检测）。设计时尚，连接稳定性好，外放音质通常更偏向流行、动次打次。\n*   **适合人群**：通勤族、经常出差需要降噪、喜欢折腾APP音效设置的用户。\n*   **推荐方向**：Focus系列或Liberty系列，适合追求降噪体验、注重智能功能的年轻用户。\n\n**总结**：重音质性价比选漫步者；重降噪和智能体验选声阔。具体型号建议结合最新用户口碑选择。",
+      "auto_brands_rule": [
+        "edifier",
+        "soundcore"
+      ],
+      "auto_brands_llm": [
+        "edifier",
+        "soundcore"
+      ],
+      "auto_first_rule": "edifier",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q043",
+      "query_text": "地铁上想安静听播客，有什么耳机选择思路？",
+      "category": "headphones",
+      "qtype": "场景",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 1,
+      "answer": "根据媒体评测和用户口碑，在地铁上听播客，选择耳机的核心思路是 **降噪** 和 **佩戴舒适度**。  \n- **主动降噪头戴式耳机**（如索尼、Bose）：适合对降噪要求极高、不介意携带体积的用户。  \n- **主动降噪真无线耳机**（如苹果 AirPods Pro、索尼 WF 系列）：兼顾便携与降噪，适合多数通勤场景。  \n- **入耳式物理隔音耳机**：若预算有限，选择隔音好的入耳式耳机也能有效阻挡部分噪音。  \n\n关键点：地铁环境低频噪音多，优先考虑带主动降噪功能的产品；播客以人声为主，无需过分追求音质。长期佩戴需注意耳压舒适度。",
+      "auto_brands_rule": [
+        "sony",
+        "bose",
+        "apple"
+      ],
+      "auto_brands_llm": [],
+      "auto_first_rule": "sony",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q128",
+      "query_text": "订机票时，平台打包和自己拆开订酒店，哪种更灵活？",
+      "category": "travel",
+      "qtype": "对比",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 0,
+      "answer": "订机票时，平台打包（机票+酒店套餐）和自己拆开订，通常是**自己拆开订更灵活**。\n\n*   **平台打包**：价格可能有优惠，适合行程固定、追求省心、对酒店要求不高的用户。但改签日期或更换酒店通常受限。\n*   **自己拆开订**：可以自由选择不同平台、酒店品牌、房型和入住时间，更容易匹配个性化需求，也便于分开退改。适合行程可能变动、对住宿有特定偏好或希望比价的用户。\n\n**简单建议**：\n*   想省心省钱，且行程确定 → 选平台打包套餐。\n*   注重灵活自由或对住宿有要求 → 自己分开预订。",
+      "auto_brands_rule": [],
+      "auto_brands_llm": [],
+      "auto_first_rule": null,
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q087",
+      "query_text": "极氪的车主口碑里，最常被提到的优缺点是什么？",
+      "category": "nev",
+      "qtype": "品牌咨询",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 1,
+      "answer": "根据用户口碑，极氪车型最常被提到的优点是驾驶质感和性能表现，尤其是加速响应和底盘调校受到认可；其次是智能座舱交互体验流畅。缺点方面，车机系统偶发卡顿和稳定性问题较为集中，部分用户反映车机死机或功能延迟；此外，后排空间和座椅舒适性在一些车型上被诟病，尤其与同级竞品相比。\n\n适合追求驾驶乐趣和科技配置的用户；若更注重车机稳定性和后排空间，建议试驾后评估。",
+      "auto_brands_rule": [
+        "zeekr"
+      ],
+      "auto_brands_llm": [
+        "zeekr"
+      ],
+      "auto_first_rule": "zeekr",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q102",
+      "query_text": "加班到很晚，低因咖啡靠谱吗，有什么选择？",
+      "category": "coffee",
+      "qtype": "场景",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 0,
+      "answer": "低因咖啡适合提神但不影响睡眠的场景，靠谱但效果因人而异。选择上：\n\n1. **三得利乌龙茶低因咖啡**（官方参数）：口感接近普通咖啡，适合喜欢传统咖啡风味但需控制因摄入的人群。\n2. **雀巢Nescafé Gold低因系列**（用户口碑）：溶解性好，适合加班时快速冲泡，对肠胃刺激小。\n3. **illy低因意式浓缩**（媒体评测）：品质稳定，适合喜欢意式风味且需要精致体验的白领。\n4. **UCC低因罐装咖啡**（训练知识）：便携即饮，适合经常出差或需要随时补充能量的上班族。\n\n注意：低因并非无因，敏感人群仍可能受影响，建议根据自身耐受度选择。",
+      "auto_brands_rule": [
+        "nestle",
+        "illy",
+        "ucc"
+      ],
+      "auto_brands_llm": [
+        "nestle",
+        "illy",
+        "ucc"
+      ],
+      "auto_first_rule": "nestle",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q144",
+      "query_text": "Booking 和爱彼迎更适合哪类住宿？",
+      "category": "travel",
+      "qtype": "品牌对比",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 0,
+      "answer": "Booking（缤客）与 Airbnb（爱彼迎）的定位差异明显，选择取决于你的旅行风格和预算：\n\n1. **Booking：适合追求标准化与灵活性的旅客**\n   主要提供酒店、公寓及传统民宿。优势在于房源标准化程度高，退改政策通常更宽松（尤其非预付订单），且常含免费取消选项。适合商务出差、家庭出游或希望获得稳定服务（如每日清洁、前台接待）的用户。\n\n2. **Airbnb：适合追求在地体验与长住的旅客**\n   主打特色房源（如树屋、城堡、本地人住宅）。优势在于能深入社区，体验当地生活，适合多人结伴出行（可租整套房源做饭、社交）或长期旅居（周租/月租折扣多）。但服务参差不齐，需仔细查看评价和取消政策。\n\n**建议：** 若你重视确定性和便捷退改，选 Booking；若你想探索小众地点、与房东互动或多人合租降低成本，选 Airbnb。两者可结合使用，对比总价（注意 Airbnb 的服务费通常较高）后决策。",
+      "auto_brands_rule": [
+        "booking",
+        "airbnb"
+      ],
+      "auto_brands_llm": [
+        "booking",
+        "airbnb"
+      ],
+      "auto_first_rule": "booking",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q066",
+      "query_text": "纯电和增程在城市通勤、长途出行上差别在哪？",
+      "category": "nev",
+      "qtype": "对比",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 0,
+      "answer": "纯电与增程的核心差异在于**补能焦虑**与**使用成本**的权衡。\n\n1. **城市通勤**\n*   **纯电**：拥有绝对优势。电费远低于油费，且多数城市通勤里程在续航内，日常体验更安静、平顺。\n*   **增程**：可油可电，无里程焦虑，但短途用电时需定期启动发动机为电池充电或维持电量，频繁启停可能带来轻微震动和噪音，且保养需兼顾两套系统，成本略高于纯电。\n\n2. **长途出行**\n*   **纯电**：依赖充电桩分布，节假日高速排队充电耗时较长，存在“里程焦虑”。\n*   **增程**：加油即走，彻底解决长途补能痛点，适合无固定充电桩或频繁跨越长距离的用户。\n\n**推荐建议**：\n*   **选纯电**：适合有家充桩、主要市区代步、极少长途出行的用户，追求极致低成本与静谧体验。\n*   **选增程**：适合拥有一辆车满足全家需求、经常高速自驾或无固定充电桩的用户，兼顾日常经济性长途便利性。",
+      "auto_brands_rule": [],
+      "auto_brands_llm": [],
+      "auto_first_rule": null,
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q012",
+      "query_text": "北方冬天皮肤特别干，面霜该怎么选？",
+      "category": "skincare",
+      "qtype": "场景",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 1,
+      "answer": "北方冬季干燥，选择面霜的核心是**强效保湿和修复屏障**。以下是几个方向，可根据肤质选择：\n\n1. **珂润润浸保湿面霜**（依据：用户口碑/成分分析）  \n   含神经酰胺，温和修复屏障，适合**敏感肌和普通干皮**日常使用。\n\n2. **科颜氏高保湿面霜**（依据：经典产品/用户反馈）  \n   角鲨烷+冰川保护蛋白，保湿力强且相对清爽，适合**中性到干性肤质**应对严寒。\n\n3. **理肤泉 B5 修复霜**（依据：成分/用户口碑）  \n   维生素 B5+积雪草，侧重**修复脱皮、泛红**，可局部厚敷或混合使用，适合**急救护理**。\n\n**注意**：如果皮肤刺痛、持续脱皮，建议咨询皮肤科医生。使用前可先在耳后测试。",
+      "auto_brands_rule": [
+        "curel",
+        "kiehls",
+        "larocheposay"
+      ],
+      "auto_brands_llm": [
+        "curel",
+        "kiehls",
+        "larocheposay"
+      ],
+      "auto_first_rule": "curel",
+      "auto_first_llm": "curel",
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q027",
+      "query_text": "雅诗兰黛小棕瓶和兰蔻小黑瓶怎么选？",
+      "category": "skincare",
+      "qtype": "品牌对比",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 1,
+      "answer": "两款都是热门精华，适合不同需求：\n\n**雅诗兰黛小棕瓶**（官方参数含二裂酵母，适合抗初老、修护熬夜肌）质地略浓，适合偏干或混合肌，追求修护抗皱的用户。\n\n**兰蔻小黑瓶**（官方参数含酵母精粹，适合维稳、强韧屏障）质地轻薄，适合所有肤质，尤其是敏感肌或希望维稳提亮的用户。\n\n选择建议：若抗老修护为主选小棕瓶；若维稳修护、肤质偏油或敏感选小黑瓶。实际效果因人而异，建议小样试用。",
+      "auto_brands_rule": [
+        "estee_lauder",
+        "lancome"
+      ],
+      "auto_brands_llm": [
+        "estee_lauder",
+        "lancome"
+      ],
+      "auto_first_rule": "estee_lauder",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q116",
+      "query_text": "三顿半和永璞的冻干，日常冲泡差别大吗？",
+      "category": "coffee",
+      "qtype": "品牌对比",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 1,
+      "answer": "三顿半（Saturnbird）和永璞（Yongpu）的冻干咖啡在口感和体验上确实存在显著差异，主要取决于你对“还原度”和“便捷性”的偏好。\n\n1. **三顿半**：主打“超即溶”，冷水/牛奶中溶解极快，几乎无残留。其风味偏向**果酸明亮、清新**，类似精品手冲咖啡，适合喜欢清淡口感、追求原味还原、常做冰饮或加奶调饮的用户。\n2. **永璞**：部分产品为“闪萃”技术，风味更偏向**浓郁醇厚、坚果巧克力调**，口感更贴近传统浓缩咖啡。适合喜欢重口味、咖啡基底感强、或希望提神效果更明显的用户。\n\n**建议：**\n* 若爱喝**美式/冰滴/浅烘风味**，选三顿半，溶解体验更佳。\n* 若爱喝**拿铁/深烘风味/咖啡味浓**，选永璞，风味更厚重。\n\n两者皆可加奶、加茶，但三顿半在冷萃体验上略胜一筹，永璞在浓郁度上更突出。建议先各买小包装试饮，找到最契合你味蕾的那一款。",
+      "auto_brands_rule": [
+        "sanfun",
+        "yongpu"
+      ],
+      "auto_brands_llm": [
+        "sanfun",
+        "yongpu"
+      ],
+      "auto_first_rule": "sanfun",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q055",
+      "query_text": "漫步者和声阔在千元以内各有什么特点？",
+      "category": "headphones",
+      "qtype": "品牌对比",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 1,
+      "answer": "在千元以内，漫步者（Edifier）和声阔（Soundcore）定位略有不同，可根据需求选择：\n\n1. **漫步者**：\n   *   **性价比与音质均衡**：作为老牌音频厂商，其千元内产品（如NeoBuds Pro 2、Lolli Pro 3）通常配置扎实，低音表现沉稳，适合追求传统Hi-Fi听感、喜欢人声温暖度的用户。\n   *   **功能实用**：部分型号配备双麦通话降噪和较长续航，适合对通话质量有基础要求的办公或通勤人群。\n\n2. **声阔**：\n   *   **APP调音与个性化**：依托Anker生态，其App（Soundcore）功能丰富，EQ调节细腻，适合喜欢自定义音效、追求低音冲击力或特定音乐风格的年轻用户。\n   *   **智能互联与便携**：在降噪算法和空间音频模拟上更新较快，产品设计更时尚，适合重视APP体验、常听流行/电子乐且需频繁切换设备的用户。\n\n**建议**：重音质与通话稳定性选漫步者；重APP玩法、低音偏好与时尚外观选声阔。建议以线下试听或详细评测为准。",
+      "auto_brands_rule": [
+        "edifier",
+        "soundcore"
+      ],
+      "auto_brands_llm": [
+        "edifier",
+        "soundcore"
+      ],
+      "auto_first_rule": "edifier",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q048",
+      "query_text": "第一次买降噪耳机，有哪些容易被忽略的参数？",
+      "category": "headphones",
+      "qtype": "入门",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 0,
+      "answer": "新手买降噪耳机，容易忽略以下参数：\n\n1. **降噪深度**：官方参数通常标注最大降噪值（如-40dB），但实际效果因环境而异，建议参考媒体评测或用户口碑。  \n2. **通话降噪**：若常需视频会议，关注麦克风数量和AI算法（官方参数或媒体评测），避免嘈杂环境通话不清。  \n3. **延迟表现**：游戏或看视频需留意低延迟模式（用户口碑或媒体评测），否则音画不同步影响体验。  \n4. **续航与快充**：官方参数标注的续航可能含降噪关闭状态，实际使用中快充功能（如15分钟充电X小时）更实用。  \n\n适合选项：  \n- **索尼WH-1000XM5**：适合追求全面降噪和音质的用户（媒体评测）。  \n- **Bose QC45**：适合注重舒适度和长时间佩戴的用户（用户口碑）。  \n- **华为FreeBuds Pro 3**：适合需要兼顾降噪和便携性的用户（官方参数）。",
+      "auto_brands_rule": [
+        "sony",
+        "bose",
+        "huawei"
+      ],
+      "auto_brands_llm": [
+        "sony",
+        "bose",
+        "huawei"
+      ],
+      "auto_first_rule": "sony",
+      "auto_first_llm": "sony",
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q141",
+      "query_text": "景区门票要不要预购，现场和官方渠道有什么差别？",
+      "category": "travel",
+      "qtype": "功效",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 1,
+      "answer": "建议**尽量预购**，尤其是热门景区或节假日。\n\n1.  **现场购票**：\n    *   **缺点**：可能面临排队耗时、票源售罄（旺季常见）、无法享受线上专属折扣。\n    *   **优点**：适合临时起意、行程未定或景区支持现场即时预约的情况。\n\n2.  **官方渠道（官网/小程序/OTA）**：\n    *   **优点**：通常有早鸟价或套票优惠；可锁定名额，避免白跑；部分景区支持“随买随用”无需取票。\n    *   **注意**：务必认准“官方”标识，避免第三方加价或虚假票务。\n\n**推荐策略**：\n*   **热门景区/节假日**：必须提前3-7天在官方渠道预订，确保进园。\n*   **冷门景区/工作日**：可现场购买，灵活性高。\n*   **特殊人群**：老人、学生等优惠票，部分景区仅限线上或指定窗口办理，建议提前查询。\n\n请以景区最新公告为准，出行前务必确认具体政策。",
+      "auto_brands_rule": [],
+      "auto_brands_llm": [],
+      "auto_first_rule": null,
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q087",
+      "query_text": "极氪的车主口碑里，最常被提到的优缺点是什么？",
+      "category": "nev",
+      "qtype": "品牌咨询",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 0,
+      "answer": "基于我的训练知识，极氪（Zeekr）车主口碑中高频提及的优缺点如下：\n\n**优点：**\n1. **底盘质感出色**：普遍称赞其操控稳定、行驶质感高级，尤其是搭载双腔空气悬架的车型，兼顾舒适与运动。\n2. **三电系统与性能**：800V高压平台车型充电速度快，电机动力强劲，加速体验优秀。\n3. **设计感强**：外观内饰设计独特，辨识度高，用料扎实，豪华感营造较好。\n\n**缺点：**\n1. **车机系统波动**：早期版本车机被吐槽智能化不足、卡顿或BUG较多，虽经OTA改善，但部分用户仍觉得流畅度不如新势力竞品。\n2. **空间利用率**：部分车型（如极氪001）后排头部空间或后备箱垂直空间受溜背设计影响，对高个子乘客不够友好。\n3. **细节品控**：偶有车主反馈异响、装配缝隙不均等小问题，品控一致性有待提升。\n\n**建议：**\n- **极氪001**：适合追求操控、豪华感及猎装造型的用户。\n- **极氪X**：适合城市通勤、注重个性设计的小家庭或单身人士。\n- **极氪009**：适合商务接待或多人口家庭，追求极致舒适的大MPV用户。\n\n*注：具体体验因车型版本和OTA更新进度而异，建议试驾对比。*",
+      "auto_brands_rule": [
+        "zeekr"
+      ],
+      "auto_brands_llm": [
+        "zeekr"
+      ],
+      "auto_first_rule": "zeekr",
+      "auto_first_llm": "zeekr",
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q107",
+      "query_text": "看咖啡豆包装上的产区和处理法，新手先看懂哪些就够了？",
+      "category": "coffee",
+      "qtype": "入门",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 1,
+      "answer": "新手优先关注**产区**和**处理法**即可，这两项直接影响风味基础。  \n\n产区决定豆子的风味基调：比如埃塞俄比亚多花果香，哥伦比亚均衡，印尼坚果感重。处理法影响口感和干净度：水洗法酸质明亮，日晒法甜感突出，蜜处理法介于两者之间。  \n\n推荐选择：  \n1. **单一水洗产区豆**（如肯尼亚AA）：适合喜欢明亮酸度的新手。  \n2. **日晒埃塞俄比亚**：适合偏爱浓郁果香和甜感的人。  \n3. **哥伦比亚水洗/蜜处理**：适合追求平衡易入口的日常饮用。  \n\n不必过分关注海拔或品种，这些细节可进阶后再了解。",
+      "auto_brands_rule": [],
+      "auto_brands_llm": [],
+      "auto_first_rule": null,
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q146",
+      "query_text": "马蜂窝和穷游的攻略风格有什么不同？",
+      "category": "travel",
+      "qtype": "品牌对比",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 1,
+      "answer": "马蜂窝和穷游的攻略风格有明显差异：\n\n马蜂窝（官方参数+用户口碑）：内容更商业化，图文并茂，适合喜欢视觉化、一站式获取信息的旅行者，尤其适合国内游和自由行新手。其攻略常包含酒店推荐、行程规划工具和商业化内容。\n\n穷游（用户口碑+训练知识）：以实用省钱攻略著称，内容更垂直深入，适合有一定旅行经验、注重预算控制的背包客和出境游爱好者。社区氛围浓厚，签证、交通等细节信息更丰富。\n\n两者差异核心：马蜂窝更\"全面友好\"，穷游更\"深度实用\"。",
+      "auto_brands_rule": [
+        "mafengwo",
+        "qyer"
+      ],
+      "auto_brands_llm": [
+        "mafengwo",
+        "qyer"
+      ],
+      "auto_first_rule": "mafengwo",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q068",
+      "query_text": "轿车、SUV 和 MPVs 在电车里怎么按家庭需求选？",
+      "category": "nev",
+      "qtype": "对比",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 1,
+      "answer": "家庭选择电车时，可按以下需求分类：\n\n**轿车**：适合城市通勤、预算有限的2-3人家庭，操控灵活，能耗低（如Model 3、比亚迪汉，用户口碑反馈空间够用）。  \n**SUV**：兼顾通过性和装载，适合4-5人家庭或喜欢户外活动的用户，后备厢更大（如蔚来ES6、理想ONE，媒体评测称其空间利用率高）。  \n**MPV**：主打多人乘坐舒适性，适合6-7人大家庭或经常载老人小孩，二三排空间宽敞（如腾势D9、小鹏X9，官方参数显示轴距超3米）。\n\n提醒：试驾体验后排空间和充电便利性，以实际需求为准。",
+      "auto_brands_rule": [
+        "tesla",
+        "byd",
+        "nio",
+        "li",
+        "denza",
+        "xpeng"
+      ],
+      "auto_brands_llm": [
+        "tesla",
+        "byd",
+        "nio",
+        "li",
+        "denza",
+        "xpeng"
+      ],
+      "auto_first_rule": "tesla",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q021",
+      "query_text": "美白精华该怎么挑，使用上有什么要注意的？",
+      "category": "skincare",
+      "qtype": "功效",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 1,
+      "answer": "挑选美白精华可关注成分和肤质：含烟酰胺（提亮）、维生素C（抗氧化）或传明酸（淡化色斑）的产品较常见，适合不同需求（用户口碑）。敏感肌建议先做皮试，避免高浓度酒精或酸类刺激。\n\n使用时注意：1）防晒是基础，否则效果打折；2）坚持4-8周见效，不要频繁更换产品；3）若刺痛或泛红立即停用，严重时咨询皮肤科医生（专业意见为准）。\n\n推荐选项：  \n- 适合初学者：平价烟酰胺精华（温和提亮）  \n- 适合暗沉肌：高浓度VC精华（抗氧化需避光）  \n- 适合敏感肌：植物成分美白精华（低刺激）",
+      "auto_brands_rule": [],
+      "auto_brands_llm": [],
+      "auto_first_rule": null,
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q025",
+      "query_text": "薇诺娜和理肤泉的修红产品有什么区别？",
+      "category": "skincare",
+      "qtype": "品牌对比",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 0,
+      "answer": "薇诺娜和理肤泉都是针对敏感、泛红肌肤的知名药妆品牌，但侧重点不同。\n\n**薇诺娜（Winona）**\n*   **特点**：核心成分是云南特色植物提取物（如马齿苋、青刺果），强调舒缓修护，质地通常更清润。\n*   **适合**：追求植物温和调理、日常维稳的敏感肌。\n\n**理肤泉（La Roche-Posay）**\n*   **特点**：核心成分是温泉水搭配神经酰胺、烟酰胺等，强调修护皮肤屏障，部分产品质地相对润泽。\n*   **适合**：皮肤屏障受损、干燥伴随泛红的肌肤。\n\n**总结**：薇诺娜侧重植物舒缓，肤感更清爽；理肤泉侧重屏障修护，滋润度可能更高。选择时可依据对成分偏好（植物 vs. 神经酰胺）和肤质需求（清爽 vs. 滋润）决定。使用前建议在耳后测试。",
+      "auto_brands_rule": [
+        "winona",
+        "larocheposay"
+      ],
+      "auto_brands_llm": [
+        "winona",
+        "larocheposay"
+      ],
+      "auto_first_rule": "winona",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q117",
+      "query_text": "%Arabica 值得专门去排队吗，它的特点是什么？",
+      "category": "coffee",
+      "qtype": "品牌咨询",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 0,
+      "answer": "%Arabica 以简约设计和精品咖啡闻名，适合喜欢极简风格和高品质咖啡的消费者。其特点包括：咖啡豆多为浅中烘焙，突出产地风味（如埃塞俄比亚的花香、肯尼亚的果酸），奶咖制作平衡，拉花简洁。排队体验因地区差异大，一线城市热门门店可能需等30分钟以上，建议错峰前往。推荐选择：1. 原味拿铁（适合喜欢奶香平衡者）；2. 手冲单品（适合咖啡爱好者）。依据：用户口碑和品牌定位。",
+      "auto_brands_rule": [
+        "pct_arabica"
+      ],
+      "auto_brands_llm": [
+        "pct_arabica"
+      ],
+      "auto_first_rule": "pct_arabica",
+      "auto_first_llm": "pct_arabica",
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q055",
+      "query_text": "漫步者和声阔在千元以内各有什么特点？",
+      "category": "headphones",
+      "qtype": "品牌对比",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 1,
+      "answer": "漫步者和声阔在千元内价位各有侧重：\n\n**漫步者**\n*   **特点**：以高性价比和扎实基础音质见长，产品线丰富，从入门有线到蓝牙耳机都有，耐用性口碑较好。\n*   **适合谁**：追求实用、预算有限，对音质有基础要求的学生或通勤用户。\n\n**声阔 (Soundcore)**\n*   **特点**：安克创新旗下品牌，突出特点是**声音调校时尚、功能丰富**（如APP自定义EQ），设计通常更年轻化。\n*   **适合谁**：喜欢折腾音效、看重产品设计和额外功能（如长续航、快充）的年轻用户。\n\n**简单来说**：漫步者更“稳”，声阔更“潮”。在意基础音质和性价比选漫步者；喜欢玩音效、看重设计选声阔。两者都是该价位的热门选择，建议根据具体型号的评测和自身偏好决定。",
+      "auto_brands_rule": [
+        "edifier",
+        "soundcore"
+      ],
+      "auto_brands_llm": [
+        "edifier",
+        "soundcore"
+      ],
+      "auto_first_rule": "edifier",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q031",
+      "query_text": "日常通勤想买一款头戴式降噪耳机，有什么推荐？",
+      "category": "headphones",
+      "qtype": "推荐",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 0,
+      "answer": "日常通勤首选高主动降噪（ANC）能力且佩戴舒适的头戴式耳机。以下是三款主流推荐：\n\n1. **Sony WH-1000XM5**：降噪与音质均衡，轻量化设计适合长时间佩戴，适合追求全能表现的用户。\n2. **Bose QuietComfort Ultra**：佩戴舒适度极佳，降噪深度强，适合对噪音敏感或需要极高舒适度的通勤者。\n3. **Sennheiser Momentum 4**：电池续航长达60小时，音质细腻，适合长距离出差或不愿频繁充电的用户。\n4. **Apple AirPods Max**：若使用iPhone，其生态联动、通透模式和做工质感无可替代，适合苹果生态用户。\n\n**建议**：优先试戴，重点关注耳罩压力与夹头感；若看重通话质量，Sony和Bose表现更稳。价格随促销波动，建议在主流电商平台比价。",
+      "auto_brands_rule": [
+        "sony",
+        "bose",
+        "sennheiser",
+        "apple"
+      ],
+      "auto_brands_llm": [
+        "sony",
+        "bose",
+        "sennheiser",
+        "apple"
+      ],
+      "auto_first_rule": "sony",
+      "auto_first_llm": "sony",
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q135",
+      "query_text": "大学生穷游国内，怎么查交通和住宿更划算？",
+      "category": "travel",
+      "qtype": "预算",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 1,
+      "answer": "大学生穷游可优先考虑以下方式：\n\n**交通**：提前1-2个月用12306或携程查特价票，选择夜间巴士/火车省住宿费；短途用\"哈啰\"等共享单车+公交组合更灵活（依据：用户口碑）。\n\n**住宿**：青旅床位人均50-100元/晚，推荐\"国际青年旅舍联盟\"会员享折扣；民宿可选\"途家\"学生认证房源；若多人同行，Airbnb整套公寓人均更低（依据：媒体评测+用户口碑）。\n\n**额外建议**：关注\"穷游网\"特价专区，部分景区对学生半价，记得带学生证。",
+      "auto_brands_rule": [
+        "qyer",
+        "rail12306",
+        "ctrip",
+        "tujia",
+        "airbnb"
+      ],
+      "auto_brands_llm": [
+        "rail12306",
+        "ctrip",
+        "tujia",
+        "airbnb",
+        "qyer"
+      ],
+      "auto_first_rule": "qyer",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q087",
+      "query_text": "极氪的车主口碑里，最常被提到的优缺点是什么？",
+      "category": "nev",
+      "qtype": "品牌咨询",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 1,
+      "answer": "基于现有车主口碑与媒体评测，极氪（Zeekr）的核心评价如下：\n\n**优点：**\n1. **操控与底盘扎实**：多数用户称赞其驾驶质感高级，底盘滤震细腻，转向精准，媲美豪华品牌。\n2. **动力强劲**：双电机版本加速迅猛，零百成绩优异，满足性能需求。\n3. **配置丰富**：智能座舱流畅，雷达感知硬件堆料足，辅助驾驶能力处于第一梯队。\n\n**缺点：**\n1. **车机系统偶发bug**：早期车型存在黑屏、卡顿或功能逻辑复杂的问题，虽经OTA改善，但稳定性仍受部分用户吐槽。\n2. **空间利用率一般**：相比同价位纯电轿车（如特斯拉Model 3），后排头部空间及后备箱储物空间略紧凑。\n3. **保值率波动**：作为较新的豪华新能源品牌，二手市场定价体系尚在磨合，早期车主对贬值速度较敏感。\n\n**总结**：适合追求驾驶乐趣、硬件配置且能容忍小毛病的用户；若极度看重空间或系统绝对稳定，建议对比试驾。",
+      "auto_brands_rule": [
+        "zeekr",
+        "tesla"
+      ],
+      "auto_brands_llm": [
+        "zeekr",
+        "tesla"
+      ],
+      "auto_first_rule": "zeekr",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q103",
+      "query_text": "带笔记本在咖啡馆坐一下午，选店时除了咖啡还看什么？",
+      "category": "coffee",
+      "qtype": "场景",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 0,
+      "answer": "在咖啡馆办公，核心是“效率”与“舒适”的平衡。除了咖啡口味，请重点关注以下四点：\n\n1. **电源插座**：这是硬指标。优先选择座位旁有插座或桌面预留接口的店铺，避免时刻寻找插座的焦虑。\n2. **网络稳定性**：进店前可先测试 Wi-Fi 信号强度及速度，确保视频会议或大文件传输不卡顿。\n3. **噪音环境**：观察店内人群密度。避免过于嘈杂或音乐过大的店，优先选择背景音适中、有白噪音掩蔽效果的场所。\n4. **座椅舒适度**：硬木椅适合短时间，但坐一下午需选择有靠背、支撑性好的沙发或人体工学椅，保护腰椎。\n\n**推荐选项：**\n*   **独立书店咖啡馆**：通常安静、插座多，适合需要深度专注的工作。\n*   **连锁品牌非高峰时段**：如星巴克工作日午后，环境稳定、网络可靠，适合常规办公。\n*   **社区精品咖啡馆**：氛围轻松，适合轻度工作或创意构思，但需提前确认插座情况。\n\n建议先实地考察或查看近期用户评价，确认上述硬件条件后再决定长时停留。",
+      "auto_brands_rule": [
+        "starbucks"
+      ],
+      "auto_brands_llm": [],
+      "auto_first_rule": "starbucks",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q148",
+      "query_text": "铁路 12306 和第三方抢票软件，普通用户该怎么选？",
+      "category": "travel",
+      "qtype": "品牌咨询",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 1,
+      "answer": "普通用户可根据出行需求选择：\n\n**铁路 12306 官方 App**  \n适合行程固定、时间充裕的用户。它是唯一官方出票渠道，候补功能由铁路系统直接管理，无额外费用，可靠性最高。\n\n**第三方抢票软件**  \n适合行程紧张、需多车次/席别备选，或愿意付费换取便利的用户。它们通过技术手段监控余票并自动提交订单，但最终仍需通过 12306 出票，部分功能会收取加速包费用。\n\n**建议**  \n1. 优先使用 **12306 候补功能**，官方渠道覆盖所有车次，成功率有系统保障。  \n2. 如需使用第三方软件，注意勾选「候补」选项（实际仍走 12306 候补），避免盲目购买加速包。  \n3. 高峰时段可 **同时使用 12306 候补 + 1 个可信第三方软件**（如携程、飞猪）作为双保险，但避免多个软件同时抢票，以免账号被限制。\n\n关键：第三方软件本身无法提高票源总量，最终仍依赖 12306 系统。",
+      "auto_brands_rule": [
+        "rail12306",
+        "ctrip",
+        "fliggy"
+      ],
+      "auto_brands_llm": [
+        "rail12306",
+        "ctrip",
+        "fliggy"
+      ],
+      "auto_first_rule": "rail12306",
+      "auto_first_llm": "rail12306",
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q090",
+      "query_text": "南方多雨城市，电车涉水和低压电器要担心吗？",
+      "category": "nev",
+      "qtype": "场景",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 1,
+      "answer": "南方多雨城市使用电车需注意涉水和电器安全，但不必过度担忧。涉水方面，主流电车（如特斯拉、比亚迪）的电池防护等级通常达IP67级，官方参数表明可应对一般积水路段，但深度涉水（如超过30cm）仍可能存在风险，建议避开积水区。低压电器方面，潮湿环境易导致漏电或短路，用户口碑反映部分老旧小区电路可能不稳定，建议安装防潮插座和漏电保护装置，并定期检查电路。\n\n推荐：\n- 适合预算有限的小鹏P7：性价比高，电池防护可靠；\n- 注重安全的比亚迪汉：防水性能优异，适合南方多雨气候；\n- 追求科技感的蔚来ET5：智能防涉水系统，适合科技爱好者。\n\n涉水问题以专业检修为准，电器安全建议咨询电工。",
+      "auto_brands_rule": [
+        "tesla",
+        "byd",
+        "xpeng",
+        "nio"
+      ],
+      "auto_brands_llm": [
+        "tesla",
+        "byd",
+        "xpeng",
+        "nio"
+      ],
+      "auto_first_rule": "tesla",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q007",
+      "query_text": "有哪些口碑比较好的烟酰胺精华？",
+      "category": "skincare",
+      "qtype": "推荐",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 0,
+      "answer": "烟酰胺精华口碑较好的产品主要有以下几款：\n\n1. **Olay光感小白瓶**（用户口碑）：主打高浓度烟酰胺+酰本胺，适合肤色暗沉、痘印困扰的人群。\n\n2. **The Ordinary 10%烟酰胺+1%锌精华**（官方参数）：性价比高，适合油皮、混合肌，控油提亮效果明显。\n\n3. **科颜氏安白瓶**（媒体评测）：含有烟酰胺+透明维C，质地轻薄，适合敏感肌或初次尝试烟酰胺的用户。\n\n4. **Pro-X小白瓶**（用户口碑）：宝洁集团研发，适合追求稳定美白、淡化痘印的熟龄肌。\n\n注意：烟酰胺可能引起部分人刺激，建议先建立耐受。敏感肌或孕妇建议咨询专业人士。",
+      "auto_brands_rule": [
+        "olay",
+        "theordinary",
+        "kiehls"
+      ],
+      "auto_brands_llm": [
+        "olay",
+        "theordinary",
+        "kiehls"
+      ],
+      "auto_first_rule": "olay",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q027",
+      "query_text": "雅诗兰黛小棕瓶和兰蔻小黑瓶怎么选？",
+      "category": "skincare",
+      "qtype": "品牌对比",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 1,
+      "answer": "两者都是精华类产品，但侧重点不同。\n\n*   **雅诗兰黛小棕瓶（特润修护肌活精华露）**：核心是“修护”。主打二裂酵母发酵产物溶胞物，注重夜间修复肌肤损伤、维稳，质地相对滋润。**适合**追求稳定、抗初老，或皮肤偏干、需要强化屏障的用户。\n*   **兰蔻小黑瓶（全新精华肌底液）**：定位是“肌底液”。同样含高浓度二裂酵母，但质地更清透，主打促进后续护肤品吸收，强韧肌底。**适合**护肤流程较多、追求肤感清爽，或油性/混合性肌肤想提升后续保养效果的用户。\n\n**简单说**：**要修护维稳选小棕瓶，要促吸收打底选小黑瓶**。可根据自身肤质和护肤步骤决定。",
+      "auto_brands_rule": [
+        "estee_lauder",
+        "lancome"
+      ],
+      "auto_brands_llm": [
+        "estee_lauder",
+        "lancome"
+      ],
+      "auto_first_rule": "estee_lauder",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q114",
+      "query_text": "Manner 和 M Stand 更偏哪种风格？",
+      "category": "coffee",
+      "qtype": "品牌对比",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 0,
+      "answer": "Manner 和 M Stand 都以简约现代风为主，但略有差异：Manner 更偏日系清新，主打纯色装修和原木元素，适合喜欢温馨、安静氛围的用户；M Stand 则更具工业风设计，金属材质和黑色调突出，适合追求个性、都市感强的消费者。两者定位相似，但视觉风格和客群略有不同，可根据个人喜好选择。",
+      "auto_brands_rule": [
+        "manner",
+        "mstand"
+      ],
+      "auto_brands_llm": [
+        "manner",
+        "mstand"
+      ],
+      "auto_first_rule": "manner",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q053",
+      "query_text": "索尼和 Bose 的头戴降噪更适合通勤还是居家？",
+      "category": "headphones",
+      "qtype": "品牌对比",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 0,
+      "answer": "索尼和 Bose 的头戴降噪耳机均适合通勤与居家，但侧重点不同。\n\n根据主流媒体评测与用户口碑：\n*   **索尼（如 WH-1000XM 系列）** 降噪能力顶尖，尤其擅长应对通勤中的持续低频噪音（如地铁、飞机引擎声），且续航长、便携性好，**更适合高频通勤者**。\n*   **Bose（如 QuietComfort 系列）** 以佩戴舒适度和均衡降噪闻名，其耳罩压力感更小，长时间佩戴更舒适，**更适合需要长时间居家办公、学习或休闲的用户**。\n\n**简单来说**：\n*   **侧重极致通勤降噪与续航**：选索尼。\n*   **侧重全天候佩戴舒适与均衡体验**：选 Bose。",
+      "auto_brands_rule": [
+        "sony",
+        "bose"
+      ],
+      "auto_brands_llm": [
+        "sony",
+        "bose"
+      ],
+      "auto_first_rule": "sony",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q052",
+      "query_text": "怎么判断一款耳机的降噪深度宣传是不是可比的？",
+      "category": "headphones",
+      "qtype": "入门",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 1,
+      "answer": "判断耳机降噪深度宣传是否可比，需注意以下几点：\n\n1. **测试标准**：不同品牌可能采用不同测试环境（如实验室/实际场景），实验室数据通常优于实际效果（依据：媒体评测）。\n\n2. **频率范围**：关注降噪频段（如20Hz-4000Hz），全频段降噪更全面（依据：官方参数）。\n\n3. **主动/被动降噪**：宣传是否明确区分主动降噪（ANC）和被动隔音（物理隔音），两者效果不同（依据：你的训练知识）。\n\n4. **实际场景差异**：高频噪声（如人声）和低频噪声（如引擎）的降噪效果可能不同，单一数据无法代表全部（依据：用户口碑）。\n\n建议选择提供具体测试条件和多场景数据的品牌，并参考第三方实测对比（如科技媒体评测）。",
+      "auto_brands_rule": [],
+      "auto_brands_llm": [],
+      "auto_first_rule": null,
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q125",
+      "query_text": "想住民宿体验当地生活，有哪些平台和注意点？",
+      "category": "travel",
+      "qtype": "推荐",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 0,
+      "answer": "平台选择：  \n- **爱彼迎**：全球房源多，适合深度体验当地文化（依据：用户口碑）。  \n- **途家**：国内房源丰富，性价比高（依据：我的训练知识）。  \n- **小猪短租**：特色民宿多，适合年轻人（依据：媒体评测）。  \n\n注意点：  \n1. **筛选评价**：优先选带实景图和详细评价的房源，避免图片与实际不符（依据：用户经验）。  \n2. **沟通确认**：入住前与房东确认细节，如WiFi、钥匙交接等（依据：官方建议）。  \n3. **安全第一**：避免选择偏远或评价模糊的房源，尤其女性独自出行（依据：安全常识）。  \n\n推荐：追求文化选爱彼迎，性价比选途家，特色体验选小猪。",
+      "auto_brands_rule": [
+        "airbnb",
+        "tujia"
+      ],
+      "auto_brands_llm": [
+        "airbnb",
+        "tujia"
+      ],
+      "auto_first_rule": "airbnb",
+      "auto_first_llm": "airbnb",
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q083",
+      "query_text": "特斯拉 Model Y 和比亚迪的同价位车型怎么选？",
+      "category": "nev",
+      "qtype": "品牌对比",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 1,
+      "answer": "特斯拉 Model Y 和比亚迪同价位车型（如比亚迪唐EV）对比，主要差异在品牌调性和技术路线。\n\n**特斯拉 Model Y**：适合注重科技体验、自动驾驶偏好和品牌影响力的用户。加速性能强，充电网络覆盖广，但内饰简约，后排空间一般（依据媒体评测和用户口碑）。\n\n**比亚迪唐EV**：适合追求性价比、配置丰富度和空间实用性的用户。刀片电池安全性高，内饰豪华感足，但品牌溢价较低，智能驾驶辅助系统相对基础（依据官方参数和用户口碑）。\n\n选车建议：若重视科技和加速选Model Y；若看重配置、空间和安全性选比亚迪唐EV。试驾体验后结合个人需求决定更稳妥。",
+      "auto_brands_rule": [
+        "tesla",
+        "byd"
+      ],
+      "auto_brands_llm": [
+        "tesla",
+        "byd"
+      ],
+      "auto_first_rule": "tesla",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q105",
+      "query_text": "每天一杯咖啡，一个月预算三百，怎么喝比较可持续？",
+      "category": "coffee",
+      "qtype": "预算",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 0,
+      "answer": "每月300元，按30天算，每天预算约10元。可持续方案（基于常见市场价）：\n\n**1. 挂耳/冻干粉 + 自制**\n- 挂耳（每包约3–6元）：选性价比品牌（如三顿半基础款、隅田川），每天1–2包，搭配热水自制。\n- 冻干粉（每杯约4–8元）：UCC、AGF等日系品牌溶解快，可加牛奶做拿铁。\n\n**2. 超市速溶/袋泡咖啡**\n- 速溶黑咖啡（每杯约1–3元）：雀巢金牌、摩可纳等大罐装更划算，注意控制糖量。\n- 袋泡咖啡（每包约2–4元）：类似茶包式浸泡，比挂耳便宜，如知乎知物。\n\n**3. 便利店/快餐店优惠**\n- 便利蜂、麦当劳（McCafé）常有8–12元美式/拿铁，搭配会员日或券包可压到10元内。\n\n**建议**：优先选自制挂耳/冻干，品质可控且环保；想省事就用便利店优惠。注意摄入量，每天1–2杯为宜。",
+      "auto_brands_rule": [
+        "sanfun",
+        "sumida",
+        "ucc",
+        "nestle",
+        "mccafe"
+      ],
+      "auto_brands_llm": [
+        "sanfun",
+        "sumida",
+        "ucc",
+        "nestle",
+        "mccafe"
+      ],
+      "auto_first_rule": "sanfun",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q147",
+      "query_text": "美团上订酒店靠谱吗，和专做旅行的平台比要注意什么？",
+      "category": "travel",
+      "qtype": "品牌咨询",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 1,
+      "answer": "美团订酒店总体靠谱，尤其在一二线城市及高性价比区间优势明显。其核心逻辑是本地生活服务，流量大、补贴多，常比携程、飞猪等OTA平台更便宜。\n\n**对比注意事项：**\n\n1.  **价格与隐形费用**：美团常有“团购券”或特价房，但务必看清是否含早、是否可退改。部分低价房可能位于偏远地段，需仔细核对地址和评分。\n2.  **售后与纠纷**：携程、飞猪在高端酒店预订和突发状况（如超售）的客服响应上通常更专业、流程更规范。美团在处理复杂投诉时，有时需更多沟通成本。\n3.  **会员权益**：若你常年住中低端连锁或民宿，美团会员积分和优惠券更实用；若常住五星或国际连锁，携程/飞猪的会员等级和酒店集团直连权益更丰富。\n\n**建议**：比价是关键。同一家酒店，先在美团看价格，再去酒店官网或携程确认是否有会员价或更好服务。预订前看清退改政策，保留截图凭证。",
+      "auto_brands_rule": [
+        "meituan_hotel",
+        "ctrip",
+        "fliggy"
+      ],
+      "auto_brands_llm": [
+        "meituan_hotel",
+        "ctrip",
+        "fliggy"
+      ],
+      "auto_first_rule": "meituan_hotel",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q072",
+      "query_text": "家里有老人小孩，选电车时空间和安全配置怎么看？",
+      "category": "nev",
+      "qtype": "场景",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 1,
+      "answer": "选家用电车，空间和安全配置是核心考量。空间上，建议选择轴距≥2.8米的中大型车（如比亚迪汉、小鹏P7），确保后排腿部空间和后备箱容积，方便老人上下车和存放婴儿车等物品（依据：官方参数）。  \n\n安全配置优先关注：①全车≥6个安全气囊（尤其侧气帘）；②L2级辅助驾驶（含AEB自动刹车、车道保持）；③高强度车身结构（如热成型钢占比≥60%）（依据：媒体评测）。  \n\n适合推荐：  \n- 比亚迪汉：空间大，安全配置全面，适合注重安全的大家庭；  \n- 蔚来ES6：智能化安全系统强，适合追求科技感的家庭；  \n- 奥迪Q4 e-tron：德系安全标准，适合偏好传统品牌的车主。  \n\n（注：具体车型配置需以官方最新信息为准，老人儿童乘车请务必使用安全座椅。）",
+      "auto_brands_rule": [
+        "byd",
+        "xpeng",
+        "nio",
+        "audi"
+      ],
+      "auto_brands_llm": [
+        "byd",
+        "xpeng",
+        "nio",
+        "audi"
+      ],
+      "auto_first_rule": "byd",
+      "auto_first_llm": "byd",
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q017",
+      "query_text": "三百块预算怎么搭一套基础护肤？",
+      "category": "skincare",
+      "qtype": "预算",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 1,
+      "answer": "根据你的预算，可以这样搭配一套基础护肤（洁面、保湿、防晒）：\n\n*   **洁面**：选择温和的氨基酸洁面乳，如**旁氏米粹**（约25元）。依据：经典平价口碑款，清洁力适中。\n*   **保湿**：选择基础保湿乳液或面霜，如**适乐肤修护保湿润肤乳**（约100元/大容量）或**珂润润浸保湿乳霜**（约150元）。依据：成分精简，侧重修护屏障，适合多数肤质。\n*   **防晒**：选择平价好用的日常防晒，如**新碧小金帽**（约60元）或**蜜丝婷小黄帽**（约70元）。依据：媒体评测与用户口碑均不错的开架产品，肤感相对清爽。\n\n**总计约200-250元**，完全在预算内，余款可备用。核心是清洁、保湿、防晒三步，对健康皮肤已足够。护肤品效果因人而异，如有敏感或特殊问题，请咨询皮肤科医生。",
+      "auto_brands_rule": [
+        "cerave",
+        "curel"
+      ],
+      "auto_brands_llm": [
+        "cerave",
+        "curel"
+      ],
+      "auto_first_rule": "cerave",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q030",
+      "query_text": "可复美和敷尔佳的敷料在日常修护里怎么选？",
+      "category": "skincare",
+      "qtype": "品牌咨询",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 1,
+      "answer": "可复美和敷尔佳虽同为“械字号”敷料，但核心成分与适用场景有显著差异，选择时需看皮肤当下的状态：\n\n1. **可复美（重组胶原蛋白类）**\n   * **核心优势**：以重组人源化胶原蛋白为主，主打修复屏障、促进创面愈合及抗炎。\n   * **适合人群**：敏感肌、屏障受损、医美术后（如光电项目）需要深层修复的人群。其促愈合能力更强，适合皮肤处于“脆弱期”时使用。\n\n2. **敷尔佳（透明质酸钠类）**\n   * **核心优势**：主要成分为透明质酸钠，侧重基础补水、舒缓退红和物理隔离保护。\n   * **适合人群**：日常轻微泛红、干燥缺水，或非侵入性医美后的基础护理。性价比高，适合维稳期日常使用。\n\n**总结建议**：若刚做完项目或皮肤严重敏感，首选**可复美**以求快速修复；若仅为日常补水、轻微泛红或预算有限，**敷尔佳**是稳妥选择。请根据自身耐受度测试后使用。",
+      "auto_brands_rule": [
+        "collagen",
+        "forencos_fuljia"
+      ],
+      "auto_brands_llm": [
+        "collagen",
+        "forencos_fuljia"
+      ],
+      "auto_first_rule": "collagen",
+      "auto_first_llm": "collagen",
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q116",
+      "query_text": "三顿半和永璞的冻干，日常冲泡差别大吗？",
+      "category": "coffee",
+      "qtype": "品牌对比",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 1,
+      "answer": "日常冲泡差别不大，主要在风味和溶解速度上。三顿半（用户口碑）风味更浓郁，适合喜欢咖啡醇厚口感的人；永璞（官方参数）溶解较快，适合追求便捷和清爽口感的人。两者都适合办公室或家庭日常饮用，可根据个人口味偏好选择。",
+      "auto_brands_rule": [
+        "sanfun",
+        "yongpu"
+      ],
+      "auto_brands_llm": [
+        "sanfun",
+        "yongpu"
+      ],
+      "auto_first_rule": "sanfun",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q058",
+      "query_text": "Beats 现在还值得买吗，和同价位比短板在哪？",
+      "category": "headphones",
+      "qtype": "品牌咨询",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 0,
+      "answer": "Beats 目前仍值得购买，尤其适合追求时尚外观和强劲低音的用户，但需注意其品牌溢价较高。\n\n**主要短板：**\n1. **音质调音风格单一**：多数型号 Bass 过重、人声闷，缺乏 Hi-Fi 耳机那种三频均衡和解析力，听古典或对人声要求高的用户会失望。\n2. **性价比低**：同价位（如 1000-2000 元）可买到索尼、森海塞尔或水月雨等品牌，后者在纯音质上通常更具优势。\n3. **佩戴舒适度**：部分头戴式型号夹头感较强，长时间佩戴不如竞品舒适。\n\n**选购建议：**\n*   **Beats Studio Pro**：适合看重品牌辨识度、需要通用蓝牙连接（支持 Apple/Android 双协议）及主动降噪的用户。\n*   **Beats Fit Pro**：适合运动场景，佩戴稳固且具备良好隔音，但需注意耳塞尺寸匹配。\n*   **替代方案**：若更看重音质而非Logo，建议考虑 Sony WH-1000XM5 或 Sennheiser Momentum 系列，它们在降噪和音质平衡上表现更佳。",
+      "auto_brands_rule": [
+        "beats",
+        "sony",
+        "sennheiser"
+      ],
+      "auto_brands_llm": [],
+      "auto_first_rule": "beats",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q038",
+      "query_text": "开放式耳机和入耳式，在户外安全性和音质上怎么取舍？",
+      "category": "headphones",
+      "qtype": "对比",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 1,
+      "answer": "在户外场景中，**安全性优先选开放式，音质追求优先选入耳式**。\n\n1. **户外安全性：开放式胜**\n开放式耳机（如骨传导或气传导）不堵塞耳道，能完整保留环境音。骑行或跑步时，你能清晰听到车流、人声和警报，极大降低交通事故风险。入耳式若降噪过强，会形成“听觉隧道”，屏蔽关键危险信号。\n\n2. **音质表现：入耳式胜**\n入耳式通过密封耳道隔绝噪音，低音更下潜，细节更丰富，沉浸感强。开放式因漏音且缺乏密封，低频损失明显，声音相对单薄，高音易受环境干扰，适合听播客或轻音乐，而非发烧级欣赏。\n\n**选购建议：**\n*   **通勤/夜跑爱好者**：选开放式。安全是底线，音质够用即可。\n*   **健身/音质党**：选入耳式。选择佩戴稳固、带通透模式的型号，兼顾沉浸与警觉。\n*   **敏感耳道者**：选开放式。避免入耳式长期佩戴引发的耳道炎症或不适。\n*   **全能平衡**：选带“通透模式”的主动降噪入耳式，既保音质，又需时开启环境音避险。",
+      "auto_brands_rule": [],
+      "auto_brands_llm": [],
+      "auto_first_rule": null,
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q137",
+      "query_text": "第一次自己订国际机票，中转和行李额要看哪些字段？",
+      "category": "travel",
+      "qtype": "入门",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 1,
+      "answer": "订机票时关注以下几点：  \n\n**1. 中转信息**  \n- **中转时间**：至少预留 2 小时（避免前序航班延误导致误机）。  \n- **是否需换机场/重新托运**：若显示“行李直挂”，则中转无需取行李；否则需在中转地重新托运并办理出入境手续（需更长时间）。  \n\n**2. 行李额度**  \n- **免费托运行李额**：通常显示为“1×23kg”等，留意航司、舱位差异。  \n- **手提行李**：注意尺寸与重量限制（常见为 7kg）。  \n\n**3. 其他提示**  \n- **联程票 vs 分开购票**：联程票由航司负责中转衔接；分开购票需自行承担误机风险。  \n- **签证需求**：部分中转地需过境签（尤其在不同机场中转时）。  \n\n建议优先选择行李直挂、中转时间充足的联程航班，出行前确认航司行李政策。",
+      "auto_brands_rule": [],
+      "auto_brands_llm": [],
+      "auto_first_rule": null,
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q084",
+      "query_text": "理想和问界更适合有小孩的家庭吗？",
+      "category": "nev",
+      "qtype": "品牌对比",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 1,
+      "answer": "理想（L系列）和问界（M5/M7）都是适合家庭的选择，但侧重点不同。  \n理想凭借\"冰箱彩电大沙发\"设计，空间利用率高，适合重视车内娱乐和长途舒适的家庭（依据：用户口碑）。问界基于华为技术，智能驾驶和车机交互更流畅，适合注重科技体验的家长（依据：媒体评测）。  \n两者都有6/7座选项，但理想纯电增程续航焦虑小，问界纯电版需考虑充电条件（依据：官方参数）。若孩子年龄小，理想娱乐系统更实用；若常跑高速，问界智驾能减轻疲劳。建议试驾体验空间和功能，按家庭实际需求选择。",
+      "auto_brands_rule": [
+        "aito",
+        "li"
+      ],
+      "auto_brands_llm": [
+        "li",
+        "aito"
+      ],
+      "auto_first_rule": "aito",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q091",
+      "query_text": "上班路上想买杯口感稳定的拿铁，有哪些常见选择？",
+      "category": "coffee",
+      "qtype": "推荐",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 1,
+      "answer": "常见选择有：  \n1. **瑞幸**：性价比高，味道稳定，适合追求方便快捷的白领。  \n2. **星巴克**：标准化出品，口感稳定，适合习惯经典风味或需要舒适环境的上班族。  \n3. **便利店咖啡**（如全家湃客、7-11）：价格亲民，基础款稳定，适合预算有限、追求效率的顾客。  \n4. **麦当劳麦咖啡**：均衡温和，性价比较高，适合对风味要求不苛刻的早餐搭配者。  \n\n建议优先选择离你最近、出品标准化程度高的连锁品牌。",
+      "auto_brands_rule": [
+        "luckin",
+        "starbucks",
+        "mccafe"
+      ],
+      "auto_brands_llm": [
+        "luckin",
+        "starbucks",
+        "mccafe"
+      ],
+      "auto_first_rule": "luckin",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q148",
+      "query_text": "铁路 12306 和第三方抢票软件，普通用户该怎么选？",
+      "category": "travel",
+      "qtype": "品牌咨询",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 0,
+      "answer": "普通用户建议：**优先铁路 12306 官方渠道（APP 或网站），备选一个口碑好的第三方软件作为补充。**\n\n**选择建议：**\n- **铁路 12306（官方）**：票源最权威、功能齐全（如候补下单），且无额外费用。适合绝大多数旅客，是购票首选和基础保障。\n- **第三方抢票软件（如携程、飞猪等）**：主要提供自动监控、多车次/席别同时抢票等便利功能，有时需购买加速包或会员。适合时间紧、行程灵活，愿意支付少量成本提高抢票概率的用户。\n\n**重要提示**：\n1. 所有第三方软件最终仍需通过 12306 系统出票，**不存在“优先出票权”**，加速包多是商业营销。\n2. 使用第三方时注意个人信息安全，避免授权过多隐私。\n3. 12306 的“候补功能”官方优先级很高，很多时候比盲目抢票更有效。\n\n**结论**：先用好 12306 官方候补，若热门线路紧张，可同步用一个口碑好的第三方软件作为辅助，但不必过度依赖或购买昂贵加速服务。",
+      "auto_brands_rule": [
+        "rail12306",
+        "ctrip",
+        "fliggy"
+      ],
+      "auto_brands_llm": [
+        "rail12306",
+        "ctrip",
+        "fliggy"
+      ],
+      "auto_first_rule": "rail12306",
+      "auto_first_llm": "rail12306",
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q070",
+      "query_text": "经常跑高速回家，电车续航和充电该怎么规划？",
+      "category": "nev",
+      "qtype": "场景",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 1,
+      "answer": "高速工况下，电动车续航通常打 6-7 折，且低温会进一步缩水。建议按以下原则规划：\n\n1. **路线规划**：优先选择服务设施完善、充电桩品牌统一（如特来电、国家电网）的干线，避免偏远路段“单品牌”陷阱。\n2. **电量阈值**：设定 20%-30% 为强制充电红线，预留 10% 以上余量以防排队或故障，切勿“抠”到个位数充电。\n3. **充电策略**：长途建议“少次多充”，每行驶 200-250 公里或电量剩 40% 时补能 20-30%，比单次充满更高效且缓解里程焦虑。\n4. **驾驶技巧**：控速在 100-110km/h 最省电，开启动能回收，提前在车内设置好导航并连接充电桩查询状态。\n\n**特别提示**：节假日高速充电排队严重，建议避开整点（如 12:00、18:00），利用错峰时段或下高速至附近县城充电，效率更高。如有不确定路况，请以实时导航及官方客服信息为准。",
+      "auto_brands_rule": [],
+      "auto_brands_llm": [],
+      "auto_first_rule": null,
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q011",
+      "query_text": "药妆和普通护肤品对敏感肌来说有什么区别？",
+      "category": "skincare",
+      "qtype": "对比",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 0,
+      "answer": "药妆（医学护肤品）和普通护肤品对敏感肌的主要区别在于成分和安全性。\n\n药妆通常基于**皮肤科学研究**，配方简化，不含香料、酒精、色素等刺激成分，pH值更接近皮肤，适合敏感肌、问题肌长期使用。普通护肤品可能添加较多香精、防腐剂，虽也有温和产品，但刺激性风险相对较高。\n\n推荐选择：\n1. 薇诺娜（国产药妆品牌，专注敏感肌，适合泛红、刺痛肌肤）\n2. 理肤泉B5修复霜（国际药妆品牌，适合屏障受损、干燥敏感肌）\n3. 优色林修护精华（德国药妆品牌，适合医美术后敏感肌）\n4. 珂润浸润保湿系列（日本药妆品牌，适合干燥、瘙痒敏感肌）\n\n敏感肌建议先做皮试，如有不适及时停用并咨询皮肤科医生。",
+      "auto_brands_rule": [
+        "winona",
+        "larocheposay",
+        "curel"
+      ],
+      "auto_brands_llm": [
+        "winona",
+        "larocheposay",
+        "curel"
+      ],
+      "auto_first_rule": "winona",
+      "auto_first_llm": "winona",
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q028",
+      "query_text": "芙丽芳丝和珂润哪款洁面更温和？",
+      "category": "skincare",
+      "qtype": "品牌对比",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 0,
+      "answer": "根据产品配方和用户口碑，两款洁面都主打温和，但适用场景略有不同：\n\n**芙丽芳丝净润洗面霜**：含多种植物提取物，清洁力稍强，适合混合肌或夏季出油较多时使用（用户口碑）。\n\n**珂润润浸保湿洁面泡沫**：泡沫绵密，含神经酰胺，清洁力更温和，适合干敏肌或冬季（官方参数）。\n\n若你是敏感肌或皮肤屏障较脆弱，珂润可能更合适；若需要稍强清洁力，芙丽芳丝更合适。实际效果因人而异，建议先试用小样。",
+      "auto_brands_rule": [
+        "freeplus",
+        "curel"
+      ],
+      "auto_brands_llm": [
+        "freeplus",
+        "curel"
+      ],
+      "auto_first_rule": "freeplus",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q114",
+      "query_text": "Manner 和 M Stand 更偏哪种风格？",
+      "category": "coffee",
+      "qtype": "品牌对比",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 1,
+      "answer": "Manner 和 M Stand 代表了上海咖啡文化的两种典型流派，风格差异显著：\n\n1. **Manner**：**极致性价比与极简实用主义**。\n   * **风格**：主打“小杯、低价、自提”。店面通常极小，甚至无座位，强调咖啡本质和效率。\n   * **适合谁**：追求高性价比、日常高频饮用、对空间环境要求不高或习惯外带的“咖啡刚需”人群。\n\n2. **M Stand**：**工业风设计与社交打卡**。\n   * **风格**：主打“创意特调、独特容器（如混凝土杯）、潮流视觉”。注重空间设计和品牌调性，价格较高。\n   * **适合谁**：看重拍照出片、喜欢新奇口味（如厚乳、果咖）、有社交或休闲需求的人群。\n\n**总结**：要喝得便宜实惠选 **Manner**；要体验潮流氛围和创意饮品选 **M Stand**。两者均依赖单店表现，建议以当地具体门店口碑为准。",
+      "auto_brands_rule": [
+        "manner",
+        "mstand"
+      ],
+      "auto_brands_llm": [
+        "manner",
+        "mstand"
+      ],
+      "auto_first_rule": "manner",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q055",
+      "query_text": "漫步者和声阔在千元以内各有什么特点？",
+      "category": "headphones",
+      "qtype": "品牌对比",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 0,
+      "answer": "漫步者和声阔都是千元内热门品牌，定位不同：\n\n1. **漫步者**  \n特点：高性价比，技术成熟，低音表现突出。  \n适合人群：预算有限、追求实用和经典调音的用户。\n\n2. **声阔（Soundcore）**  \n特点：设计时尚，功能丰富（如多模式降噪），声音均衡。  \n适合人群：看重颜值、喜欢尝试新功能（如App控制）的年轻用户。\n\n建议：  \n- 偏爱重低音和耐用性→选漫步者  \n- 需要降噪和均衡音质→选声阔  \n可参考官方参数和用户口碑对比具体型号。",
+      "auto_brands_rule": [
+        "edifier",
+        "soundcore"
+      ],
+      "auto_brands_llm": [
+        "edifier",
+        "soundcore"
+      ],
+      "auto_first_rule": "edifier",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q048",
+      "query_text": "第一次买降噪耳机，有哪些容易被忽略的参数？",
+      "category": "headphones",
+      "qtype": "入门",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 0,
+      "answer": "初次选购降噪耳机，除了关注降噪深度（dB）和音质外，以下三点极易被忽视：\n\n1. **通透模式（Ambient Sound）**：这是降噪的“对立面”。若通透模式音质自然、无严重底噪或延迟，你在需要听取周围人声（如过安检、交谈）时体验会好很多。\n2. **佩戴舒适度与耳压感**：主动降噪会产生轻微耳压，敏感人群可能感到不适。务必确认耳罩材质（蛋白皮易闷汗，记忆海绵更贴合）及夹力是否适合你的头型，长期佩戴舒适度比参数更重要。\n3. **连接稳定性与延迟**：关注是否支持双设备连接（如同时连电脑和手机），以及游戏/视频模式下是否有低延迟模式。蓝牙版本（如5.3）和是否支持高清编解码（如LDAC、aptX）影响多设备切换的流畅度和音质上限。\n\n**推荐方向**：\n* **追求极致降噪**：选Sony WH-1000XM系列或Bose QuietComfort，适合通勤高频用户。\n* **注重佩戴舒适**：选Bose QC系列，耳压感控制较好，适合长时间佩戴。\n* **安卓生态/音质党**：选Sony WF-1000XM系列，支持LDAC，适合注重音质连接的用户。\n* **苹果用户**：首选AirPods Pro 2，生态联动无敌，通透模式业界标杆。\n\n建议亲自试戴，确认耳压和夹力是否可接受。",
+      "auto_brands_rule": [
+        "sony",
+        "bose",
+        "apple"
+      ],
+      "auto_brands_llm": [
+        "sony",
+        "bose",
+        "apple"
+      ],
+      "auto_first_rule": "sony",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q138",
+      "query_text": "酒店评分和评价数量，怎么避免被少量极端评价带偏？",
+      "category": "travel",
+      "qtype": "入门",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 1,
+      "answer": "选择酒店时，可以参考以下方法，避免被少量极端评价误导：\n\n**1. 看整体趋势，而非单一结论**  \n忽略评分最高的几条和最低的几条，重点浏览**中间段（比如3-4分）的详细评价**，这些通常更客观，会同时提到优缺点。\n\n**2. 关注“标签”与近期评价**  \n平台常汇总高频关键词（如“隔音差”“服务热情”），比单条评价更有参考性。同时优先看**近3个月的点评**，酒店设施、服务可能已变化。\n\n**3. 交叉验证信息**  \n如果某差评提到具体问题（如“空调不制冷”），可以搜索其他评价是否重复出现该问题。同时可参考**多个平台（如携程、美团、Google）** 的评分，避免单一平台偏差。\n\n**4. 明确自己的核心需求**  \n若你最在意卫生，就重点看相关评价；若是短期过渡，对设施要求不高，可适当放宽标准。\n\n**总结建议**：  \n- **稳妥型选择**：评分4.2以上、评价数＞500条、近期评价稳定的酒店。  \n- **高性价比选择**：评分4.0左右、评价数200条以上、中评内容与你需求匹配的酒店。  \n- **小众特色选择**：评分可能不高，但差评原因你并不介意（如“房间小但设计独特”）。\n\n最终决策时，建议结合官方图片、地图位置和你的主要需求综合判断。",
+      "auto_brands_rule": [
+        "dianping",
+        "ctrip"
+      ],
+      "auto_brands_llm": [
+        "ctrip",
+        "meituan_hotel",
+        "google"
+      ],
+      "auto_first_rule": "dianping",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q083",
+      "query_text": "特斯拉 Model Y 和比亚迪的同价位车型怎么选？",
+      "category": "nev",
+      "qtype": "品牌对比",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 0,
+      "answer": "选择取决于你对“智能驾驶+品牌”与“性价比+续航”的偏好。以下是基于市场口碑与产品特性的对比建议：\n\n1. **特斯拉 Model Y**：适合追求极致智能辅助驾驶、品牌认同感及海外口碑的用户。其电控效率高、底盘质感运动，但内饰简约（常被称为“毛坯房”），后排空间相对紧凑。依据主要为官方参数及广泛用户反馈。\n\n2. **比亚迪 宋PLUS/海狮07 EV**：适合注重性价比、家庭实用性及配置丰富度的用户。同价位下，比亚迪通常提供更舒适的座椅、更大的储物空间、DiPilot辅助驾驶及更多豪华配置（如座椅通风/加热）。依据主要为媒体评测对比及车主口碑。\n\n3. **比亚迪 元PLUS/海豹**：若预算稍低，元PLUS性价比高；若追求驾驶质感，海豹底盘更扎实。\n\n**建议**：试驾时重点体验 Model Y 的 Autopilot 流畅度与比亚迪的车机生态及后排舒适度。若常跑高速且看重科技感，选 Model Y；若主要市内通勤且看重舒适与配置，选比亚迪。请以实地试驾感受为准。",
+      "auto_brands_rule": [
+        "tesla",
+        "byd"
+      ],
+      "auto_brands_llm": [
+        "tesla",
+        "byd"
+      ],
+      "auto_first_rule": "tesla",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q112",
+      "query_text": "磨豆机值不值得买，手摇和电动怎么选？",
+      "category": "coffee",
+      "qtype": "入门",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 1,
+      "answer": "磨豆机是提升咖啡风味的关键投资，值得购买，因为研磨均匀度直接决定萃取稳定性和风味层次。\n\n**手摇 vs 电动怎么选？**\n\n1. **手摇磨豆机**：性价比高，体积小巧，无电源限制，适合租房党、户外露营或预算有限者。但耗时较长，需一定体力。\n   *   *适合人群*：学生、旅行爱好者、追求极致性价比的入门玩家。\n   *   *推荐参考*：泰摩Cone系列（口碑稳）、Comandante C40（高端标杆）。\n\n2. **电动磨豆机**：省时省力，研磨一致性通常更好，操作便捷，适合日常高频使用。\n   *   *适合人群*：家庭日常饮用、办公室使用、对效率有要求的用户。\n   *   *推荐参考*：Baratza Encore（入门经典）、Eureka Mignon（进阶优选）。\n\n**建议**：若日均一杯且预算有限，先买入门级手摇；若追求便捷和稳定出品，直接选择入门电动。预算分配上，磨豆机应优先于咖啡机。",
+      "auto_brands_rule": [],
+      "auto_brands_llm": [],
+      "auto_first_rule": null,
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q145",
+      "query_text": "飞猪和携程做度假产品时各有什么特点？",
+      "category": "travel",
+      "qtype": "品牌对比",
+      "model": "zai-org/GLM-4.5-Air",
+      "run": 0,
+      "answer": "飞猪和携程的度假产品各有侧重：\n\n飞猪依托阿里生态，适合喜欢一站式服务的用户，其特点是整合了机票、酒店、当地玩乐等资源，常有\"套餐+优惠券\"的组合优惠，尤其适合年轻群体和亲子家庭（基于用户口碑和平台策略）。\n\n携程则以资源丰富和专业服务见长，适合注重行程细节和当地体验的用户，其特点是提供更多目的地深度游和定制化产品，如当地向导、特色小团等，覆盖高端到平价各层级需求（基于媒体评测和行业认知）。\n\n两者均支持灵活调整，但携程在目的地覆盖和客服响应上可能更成熟，飞猪则更适合追求便捷和性价比的用户。",
+      "auto_brands_rule": [
+        "fliggy",
+        "ctrip"
+      ],
+      "auto_brands_llm": [
+        "fliggy",
+        "ctrip"
+      ],
+      "auto_first_rule": "fliggy",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q063",
+      "query_text": "适合新手的小型纯电家轿有哪些？",
+      "category": "nev",
+      "qtype": "推荐",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 0,
+      "answer": "针对新手选购小型纯电家轿，建议优先考虑安全性高、视野好且智能辅助驾驶易上手的车型，以下是三个典型选项：\n\n1. **比亚迪海豚**：基于e平台3.0打造，空间利用率极高，内饰质感在同级中出色。适合追求品牌稳定性、保值率及日常通勤舒适性的用户。\n2. **大众ID.3**：德系底盘调校，驾驶质感扎实，转向精准，且常有大额优惠。适合喜欢传统驾驶手感、注重操控稳定性及安全冗余的新手。\n3. **比亚迪元PLUS（AION Plus）**：虽属小型SUV，但常被归为此类竞争，空间宽敞，配置丰富，三电系统成熟。适合对头部空间有要求、偶尔需要载物的家庭用户。\n\n**提示**：小型车车身较小，盲区相对较大，建议提车后重点练习360度全景影像的使用。具体配置和价格请以当地经销商实时报价为准。",
+      "auto_brands_rule": [
+        "byd",
+        "vw",
+        "aion"
+      ],
+      "auto_brands_llm": [
+        "byd",
+        "vw",
+        "aion"
+      ],
+      "auto_first_rule": "byd",
+      "auto_first_llm": "byd",
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q012",
+      "query_text": "北方冬天皮肤特别干，面霜该怎么选？",
+      "category": "skincare",
+      "qtype": "场景",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "run": 1,
+      "answer": "北方冬季寒风干燥，选面霜的核心在于“封闭性强”和“修复屏障”，建议避开清爽型，选择质地丰润的产品。以下是4款不同侧重点的选择：\n\n1. **高保湿修复型（如珂润浸润保湿面霜）**：适合敏感肌或屏障受损人群，含神经酰胺，温和修护且不厚重，性价比高。\n2. **强封闭滋润型（如科颜氏高保湿面霜）**：适合极干皮，含角鲨烷和冰川保护蛋白，能在皮肤表面形成强力锁水膜，抵御寒风。\n3. **抗老滋润型（如雅诗兰黛智妍面霜）**：适合初期抗老需求，质地滋润但不油腻，兼顾保湿与紧致，适合混合偏干肌肤。\n4. **平价大碗型（如凡士林晶冻或大宝SOD蜜）**：适合局部厚敷或身体使用，封闭性极佳，但面部使用建议乳化后薄涂，避免闷痘。\n\n**选购提示**：务必在面霜后叠加精华油或确保夜间睡眠环境湿度（使用加湿器）。若出现刺痛、泛红持续不退，请暂停使用并咨询皮肤科医生。",
+      "auto_brands_rule": [
+        "curel",
+        "kiehls",
+        "estee_lauder"
+      ],
+      "auto_brands_llm": [],
+      "auto_first_rule": "curel",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    },
+    {
+      "query_id": "Q026",
+      "query_text": "珀莱雅和自然堂更适合敏感肌吗？",
+      "category": "skincare",
+      "qtype": "品牌对比",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "run": 1,
+      "answer": "珀莱雅和自然堂都有针对敏感肌的系列，但个体差异大，建议通过试用判断。\n\n**珀莱雅**\n*   **适合谁**：其「源力」系列主打修护，含神经酰胺等成分。适合想兼顾修护与抗初老的敏感肌。\n*   **依据**：官方产品定位与成分表。\n\n**自然堂**\n*   **适合谁**：其「敏感肌专研」系列（如安瓶面膜）成分较精简。适合追求基础舒缓保湿的敏感肌。\n*   **依据**：官方产品线划分与用户口碑反馈。\n\n**核心建议**\n1.  **先试用**：所有护肤品都需耳后测试，无不适再上脸。\n2.  **看系列**：务必选择品牌旗下专为敏感肌设计的产品线。\n3.  **咨询专业意见**：若皮肤敏感严重，建议咨询皮肤科医生。\n\n最终选择取决于你的具体肤质和敏感成因。",
+      "auto_brands_rule": [
+        "proya",
+        "chando"
+      ],
+      "auto_brands_llm": [
+        "proya",
+        "chando"
+      ],
+      "auto_first_rule": "proya",
+      "auto_first_llm": null,
+      "human_brands": null,
+      "human_first": null,
+      "reviewer": null,
+      "review_notes": null,
+      "status": "auto_draft_unreviewed"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <title>GeoRadar / GeoLab 工作台</title>
+  <style>
+    body { font-family: "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; margin: 24px; max-width: 1100px; color: #222; }
+    h1 { font-size: 20px; }
+    h2 { font-size: 16px; margin-top: 28px; }
+    .note { background: #fff6e5; border: 1px solid #f0d9a6; padding: 10px 14px; }
+    table { border-collapse: collapse; width: 100%; margin: 8px 0 16px; font-size: 13px; }
+    th, td { border: 1px solid #ddd; padding: 5px 8px; text-align: left; }
+    th { background: #f5f5f5; }
+    .bar { height: 10px; background: #3b6fd8; display: inline-block; vertical-align: middle; }
+    a { color: #1a4fbf; }
+    code { font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h1>GEO 工作台：GeoRadar 与 GeoLab</h1>
+  <p class="note">这是个人项目的离线评测工作台，不是抖音或豆包的生产系统。GeoRadar 用的是无搜索裸模型；GeoLab 是虚构品牌上的受控对照实验。</p>
+  <p>
+    <a href="/api/reports/results_georadar.md">GeoRadar 评测报告</a> ·
+    <a href="/api/reports/badcases_georadar.md">GeoRadar 坏例</a> ·
+    <a href="/api/reports/results_geolab.md">GeoLab 评测报告</a> ·
+    <a href="/api/reports/badcases_geolab.md">GeoLab 坏例</a>
+  </p>
+  <h2>GeoRadar：品牌 SOV（自发提及分析集前 15）</h2>
+  <div id="radar">加载中…</div>
+  <h2>GeoLab：各策略引用率</h2>
+  <div id="lab">加载中…</div>
+  <script>
+    function pct(x){ return x==null ? "n/a" : (x*100).toFixed(1)+"%"; }
+    function num(x){ return x==null ? "n/a" : Number(x).toFixed(3); }
+    fetch("/api/georadar/metrics").then(r=>r.json()).then(d=>{
+      if(d.error){ document.getElementById("radar").textContent=d.error; return; }
+      let h = "<p>有品牌回答占比 "+pct(d.mention_any)+"，跨采样 Jaccard "+num(d.stability && d.stability.mean_jaccard)+"</p>";
+      h += "<table><tr><th>品牌</th><th>SOV</th><th>提及率</th><th>首位率</th></tr>";
+      (d.sov_top||[]).forEach(r=>{
+        h += `<tr><td>${r.brand_name}</td><td>${num(r.sov)} <span class="bar" style="width:${(r.sov||0)*200}px"></span></td><td>${pct(r.mention_rate)}</td><td>${pct(r.first_position_rate)}</td></tr>`;
+      });
+      h += "</table>";
+      document.getElementById("radar").innerHTML = h;
+    }).catch(e=>document.getElementById("radar").textContent=String(e));
+    fetch("/api/geolab/metrics").then(r=>r.json()).then(d=>{
+      if(d.error){ document.getElementById("lab").textContent=d.error; return; }
+      let h = "<table><tr><th>策略</th><th>模型</th><th>引用率</th><th>PAWC</th></tr>";
+      (d.table||[]).forEach(r=>{
+        const c=r.cite_rate||{}, p=r.imp_pwc||{};
+        h += `<tr><td>${r.strategy}</td><td><code>${r.model}</code></td><td>${num(c.mean)} [${num(c.ci_low)}, ${num(c.ci_high)}]</td><td>${num(p.mean)}</td></tr>`;
+      });
+      h += "</table>";
+      document.getElementById("lab").innerHTML = h;
+    }).catch(e=>document.getElementById("lab").textContent=String(e));
+  </script>
+</body>
+</html>

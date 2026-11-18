@@ -1,0 +1,2129 @@
+{
+  "table": [
+    {
+      "strategy": "baseline",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.65,
+        "ci_low": 0.5,
+        "ci_high": 0.7916666666666667,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.5916666666666667,
+        "ci_low": 0.4416666666666667,
+        "ci_high": 0.7333333333333333,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.11892967522254319,
+        "ci_low": 0.0857597151427498,
+        "ci_high": 0.15477856826799383,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.20534019225140968,
+        "ci_low": 0.14745312631233315,
+        "ci_high": 0.26741657754900355,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 0.7,
+        "ci_low": 0.55,
+        "ci_high": 0.85,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 3.45
+    },
+    {
+      "strategy": "baseline",
+      "model": "zai-org/GLM-4.5-Air",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.6666666666666667,
+        "ci_low": 0.5166666666666667,
+        "ci_high": 0.8083333333333333,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.6416666666666667,
+        "ci_low": 0.4916666666666667,
+        "ci_high": 0.7916666666666667,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.12367446584114239,
+        "ci_low": 0.08938484648190062,
+        "ci_high": 0.16006401670524698,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.21989748373683943,
+        "ci_low": 0.16034285816992327,
+        "ci_high": 0.28178822613293025,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 0.7,
+        "ci_low": 0.55,
+        "ci_high": 0.85,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 3.45
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.30833333333333335,
+        "ci_low": 0.175,
+        "ci_high": 0.4583333333333333,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.3,
+        "ci_low": 0.175,
+        "ci_high": 0.45,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.05857599920215105,
+        "ci_low": 0.027843836417806245,
+        "ci_high": 0.09297229175991274,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.12041039791425423,
+        "ci_low": 0.05470898651155087,
+        "ci_high": 0.1961030139978942,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 0.325,
+        "ci_low": 0.175,
+        "ci_high": 0.475,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 5.425
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "zai-org/GLM-4.5-Air",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.325,
+        "ci_low": 0.175,
+        "ci_high": 0.475,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.31666666666666665,
+        "ci_low": 0.175,
+        "ci_high": 0.4666666666666667,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.06888709177654836,
+        "ci_low": 0.03374640039985001,
+        "ci_high": 0.11275444855006864,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.14189717395381465,
+        "ci_low": 0.06675079870433481,
+        "ci_high": 0.23165820888190192,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 0.325,
+        "ci_low": 0.175,
+        "ci_high": 0.475,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 5.425
+    },
+    {
+      "strategy": "freshness",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.21666666666666665,
+        "ci_low": 0.10833333333333332,
+        "ci_high": 0.35,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.20833333333333334,
+        "ci_low": 0.1,
+        "ci_high": 0.3416666666666667,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.04123559561243799,
+        "ci_low": 0.01635780455904031,
+        "ci_high": 0.07385873313188916,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.0731670006126941,
+        "ci_low": 0.03018661360041298,
+        "ci_high": 0.1276503331834838,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 0.25,
+        "ci_low": 0.125,
+        "ci_high": 0.4,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 6.125
+    },
+    {
+      "strategy": "freshness",
+      "model": "zai-org/GLM-4.5-Air",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.25,
+        "ci_low": 0.125,
+        "ci_high": 0.4,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.24166666666666664,
+        "ci_low": 0.125,
+        "ci_high": 0.38333333333333336,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.05290451861226658,
+        "ci_low": 0.022828063248664855,
+        "ci_high": 0.09177701517989909,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.09882538917764777,
+        "ci_low": 0.04150404385630245,
+        "ci_high": 0.1720153077195558,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 0.25,
+        "ci_low": 0.125,
+        "ci_high": 0.4,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 6.125
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.425,
+        "ci_low": 0.2833333333333333,
+        "ci_high": 0.575,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.39166666666666666,
+        "ci_low": 0.25,
+        "ci_high": 0.5416666666666667,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.06419172969872153,
+        "ci_low": 0.04012811211685321,
+        "ci_high": 0.09117363826933994,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.11198263298993172,
+        "ci_low": 0.07093577440427666,
+        "ci_high": 0.15738430302700418,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 0.45,
+        "ci_low": 0.3,
+        "ci_high": 0.6,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 5.075
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "zai-org/GLM-4.5-Air",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.4416666666666667,
+        "ci_low": 0.29166666666666663,
+        "ci_high": 0.6,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.4,
+        "ci_low": 0.25833333333333336,
+        "ci_high": 0.55,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.08491660886260419,
+        "ci_low": 0.0526567711318767,
+        "ci_high": 0.12036815218214378,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.1517297043116106,
+        "ci_low": 0.09579562688863329,
+        "ci_high": 0.21395408830914722,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 0.45,
+        "ci_low": 0.3,
+        "ci_high": 0.6,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 5.075
+    },
+    {
+      "strategy": "quotation",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.175,
+        "ci_low": 0.075,
+        "ci_high": 0.3,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.175,
+        "ci_low": 0.075,
+        "ci_high": 0.3,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.029338336525085773,
+        "ci_low": 0.010364112081249007,
+        "ci_high": 0.05339278159543094,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.06047555079885121,
+        "ci_low": 0.021737094133049445,
+        "ci_high": 0.10651924076177892,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 0.175,
+        "ci_low": 0.075,
+        "ci_high": 0.3,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 6.375
+    },
+    {
+      "strategy": "quotation",
+      "model": "zai-org/GLM-4.5-Air",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.175,
+        "ci_low": 0.075,
+        "ci_high": 0.3,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.175,
+        "ci_low": 0.075,
+        "ci_high": 0.3,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.037205336587635286,
+        "ci_low": 0.012784076589708825,
+        "ci_high": 0.0689340009142037,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.07136598459260304,
+        "ci_low": 0.02693696050431362,
+        "ci_high": 0.12574798963813677,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 0.175,
+        "ci_low": 0.075,
+        "ci_high": 0.3,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 6.375
+    },
+    {
+      "strategy": "statistics",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.21666666666666665,
+        "ci_low": 0.1,
+        "ci_high": 0.35,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.20833333333333334,
+        "ci_low": 0.09166666666666666,
+        "ci_high": 0.33333333333333337,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.05495781180209759,
+        "ci_low": 0.021622995307208865,
+        "ci_high": 0.09490738155552436,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.10883155174967482,
+        "ci_low": 0.041944206286377135,
+        "ci_high": 0.18941631198644474,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 0.225,
+        "ci_low": 0.1,
+        "ci_high": 0.35,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 6.175
+    },
+    {
+      "strategy": "statistics",
+      "model": "zai-org/GLM-4.5-Air",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.225,
+        "ci_low": 0.1,
+        "ci_high": 0.35,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.21666666666666665,
+        "ci_low": 0.1,
+        "ci_high": 0.35,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.06710249396446048,
+        "ci_low": 0.027652579199312178,
+        "ci_high": 0.1159112197404121,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.14052887095310346,
+        "ci_low": 0.056989598308996414,
+        "ci_high": 0.24064160049813693,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 0.225,
+        "ci_low": 0.1,
+        "ci_high": 0.35,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 6.175
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.95,
+        "ci_low": 0.8833333333333334,
+        "ci_high": 1.0,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.9,
+        "ci_low": 0.825,
+        "ci_high": 0.9666666666666666,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.20701065898055027,
+        "ci_low": 0.17140533961192964,
+        "ci_high": 0.2476875981885843,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.36497894832780015,
+        "ci_low": 0.2977897085658355,
+        "ci_high": 0.4468494838066359,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 1.375
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "zai-org/GLM-4.5-Air",
+      "n_rows": 120,
+      "n_questions": 40,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.95,
+        "ci_low": 0.875,
+        "ci_high": 1.0,
+        "n_boot": 2000
+      },
+      "mention_rate": {
+        "n": 40,
+        "mean": 0.875,
+        "ci_low": 0.775,
+        "ci_high": 0.9583333333333334,
+        "n_boot": 2000
+      },
+      "imp_pwc": {
+        "n": 40,
+        "mean": 0.22872837505222368,
+        "ci_low": 0.18835522856453346,
+        "ci_high": 0.276213001869716,
+        "n_boot": 2000
+      },
+      "imp_wc": {
+        "n": 40,
+        "mean": 0.4067565065939345,
+        "ci_low": 0.3315613650058327,
+        "ci_high": 0.4959081501411456,
+        "n_boot": 2000
+      },
+      "target_in_topk": {
+        "n": 40,
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "n_boot": 2000
+      },
+      "mean_target_rank_live": 1.375
+    }
+  ],
+  "relative_cite": [
+    {
+      "strategy": "baseline",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "mean": 0.65,
+      "baseline_mean": 0.65,
+      "relative_pct": 0.0,
+      "delta": 0.0,
+      "delta_pp": 0.0,
+      "ci_low": 0.5,
+      "ci_high": 0.7916666666666667
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "mean": 0.30833333333333335,
+      "baseline_mean": 0.65,
+      "relative_pct": -52.56410256410257,
+      "delta": -0.3416666666666667,
+      "delta_pp": -34.166666666666664,
+      "ci_low": 0.175,
+      "ci_high": 0.4583333333333333
+    },
+    {
+      "strategy": "freshness",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "mean": 0.21666666666666665,
+      "baseline_mean": 0.65,
+      "relative_pct": -66.66666666666666,
+      "delta": -0.43333333333333335,
+      "delta_pp": -43.333333333333336,
+      "ci_low": 0.10833333333333332,
+      "ci_high": 0.35
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "mean": 0.425,
+      "baseline_mean": 0.65,
+      "relative_pct": -34.61538461538462,
+      "delta": -0.22500000000000003,
+      "delta_pp": -22.500000000000004,
+      "ci_low": 0.2833333333333333,
+      "ci_high": 0.575
+    },
+    {
+      "strategy": "quotation",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "mean": 0.175,
+      "baseline_mean": 0.65,
+      "relative_pct": -73.07692307692308,
+      "delta": -0.47500000000000003,
+      "delta_pp": -47.5,
+      "ci_low": 0.075,
+      "ci_high": 0.3
+    },
+    {
+      "strategy": "statistics",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "mean": 0.21666666666666665,
+      "baseline_mean": 0.65,
+      "relative_pct": -66.66666666666666,
+      "delta": -0.43333333333333335,
+      "delta_pp": -43.333333333333336,
+      "ci_low": 0.1,
+      "ci_high": 0.35
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "mean": 0.95,
+      "baseline_mean": 0.65,
+      "relative_pct": 46.15384615384614,
+      "delta": 0.29999999999999993,
+      "delta_pp": 29.999999999999993,
+      "ci_low": 0.8833333333333334,
+      "ci_high": 1.0
+    },
+    {
+      "strategy": "baseline",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "mean": 0.6666666666666667,
+      "baseline_mean": 0.6666666666666667,
+      "relative_pct": 0.0,
+      "delta": 0.0,
+      "delta_pp": 0.0,
+      "ci_low": 0.5166666666666667,
+      "ci_high": 0.8083333333333333
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "mean": 0.325,
+      "baseline_mean": 0.6666666666666667,
+      "relative_pct": -51.25000000000001,
+      "delta": -0.34166666666666673,
+      "delta_pp": -34.16666666666667,
+      "ci_low": 0.175,
+      "ci_high": 0.475
+    },
+    {
+      "strategy": "freshness",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "mean": 0.25,
+      "baseline_mean": 0.6666666666666667,
+      "relative_pct": -62.5,
+      "delta": -0.41666666666666674,
+      "delta_pp": -41.66666666666667,
+      "ci_low": 0.125,
+      "ci_high": 0.4
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "mean": 0.4416666666666667,
+      "baseline_mean": 0.6666666666666667,
+      "relative_pct": -33.75,
+      "delta": -0.22500000000000003,
+      "delta_pp": -22.500000000000004,
+      "ci_low": 0.29166666666666663,
+      "ci_high": 0.6
+    },
+    {
+      "strategy": "quotation",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "mean": 0.175,
+      "baseline_mean": 0.6666666666666667,
+      "relative_pct": -73.75,
+      "delta": -0.49166666666666675,
+      "delta_pp": -49.16666666666668,
+      "ci_low": 0.075,
+      "ci_high": 0.3
+    },
+    {
+      "strategy": "statistics",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "mean": 0.225,
+      "baseline_mean": 0.6666666666666667,
+      "relative_pct": -66.25000000000001,
+      "delta": -0.44166666666666676,
+      "delta_pp": -44.16666666666668,
+      "ci_low": 0.1,
+      "ci_high": 0.35
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "mean": 0.95,
+      "baseline_mean": 0.6666666666666667,
+      "relative_pct": 42.49999999999998,
+      "delta": 0.2833333333333332,
+      "delta_pp": 28.33333333333332,
+      "ci_low": 0.875,
+      "ci_high": 1.0
+    }
+  ],
+  "relative_pawc": [
+    {
+      "strategy": "baseline",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "mean": 0.11892967522254319,
+      "baseline_mean": 0.11892967522254319,
+      "relative_pct": 0.0,
+      "delta": 0.0,
+      "delta_pp": 0.0,
+      "ci_low": 0.0857597151427498,
+      "ci_high": 0.15477856826799383
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "mean": 0.05857599920215105,
+      "baseline_mean": 0.11892967522254319,
+      "relative_pct": -50.7473646988923,
+      "delta": -0.06035367602039214,
+      "delta_pp": -0.06035367602039214,
+      "ci_low": 0.027843836417806245,
+      "ci_high": 0.09297229175991274
+    },
+    {
+      "strategy": "freshness",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "mean": 0.04123559561243799,
+      "baseline_mean": 0.11892967522254319,
+      "relative_pct": -65.32774891104575,
+      "delta": -0.0776940796101052,
+      "delta_pp": -0.0776940796101052,
+      "ci_low": 0.01635780455904031,
+      "ci_high": 0.07385873313188916
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "mean": 0.06419172969872153,
+      "baseline_mean": 0.11892967522254319,
+      "relative_pct": -46.02547297080826,
+      "delta": -0.05473794552382166,
+      "delta_pp": -0.05473794552382166,
+      "ci_low": 0.04012811211685321,
+      "ci_high": 0.09117363826933994
+    },
+    {
+      "strategy": "quotation",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "mean": 0.029338336525085773,
+      "baseline_mean": 0.11892967522254319,
+      "relative_pct": -75.33135740076024,
+      "delta": -0.08959133869745742,
+      "delta_pp": -0.08959133869745742,
+      "ci_low": 0.010364112081249007,
+      "ci_high": 0.05339278159543094
+    },
+    {
+      "strategy": "statistics",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "mean": 0.05495781180209759,
+      "baseline_mean": 0.11892967522254319,
+      "relative_pct": -53.78965619870767,
+      "delta": -0.0639718634204456,
+      "delta_pp": -0.0639718634204456,
+      "ci_low": 0.021622995307208865,
+      "ci_high": 0.09490738155552436
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "mean": 0.20701065898055027,
+      "baseline_mean": 0.11892967522254319,
+      "relative_pct": 74.06140107016056,
+      "delta": 0.08808098375800708,
+      "delta_pp": 0.08808098375800708,
+      "ci_low": 0.17140533961192964,
+      "ci_high": 0.2476875981885843
+    },
+    {
+      "strategy": "baseline",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "mean": 0.12367446584114239,
+      "baseline_mean": 0.12367446584114239,
+      "relative_pct": 0.0,
+      "delta": 0.0,
+      "delta_pp": 0.0,
+      "ci_low": 0.08938484648190062,
+      "ci_high": 0.16006401670524698
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "mean": 0.06888709177654836,
+      "baseline_mean": 0.12367446584114239,
+      "relative_pct": -44.29966500519793,
+      "delta": -0.054787374064594024,
+      "delta_pp": -0.054787374064594024,
+      "ci_low": 0.03374640039985001,
+      "ci_high": 0.11275444855006864
+    },
+    {
+      "strategy": "freshness",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "mean": 0.05290451861226658,
+      "baseline_mean": 0.12367446584114239,
+      "relative_pct": -57.222763605689245,
+      "delta": -0.0707699472288758,
+      "delta_pp": -0.0707699472288758,
+      "ci_low": 0.022828063248664855,
+      "ci_high": 0.09177701517989909
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "mean": 0.08491660886260419,
+      "baseline_mean": 0.12367446584114239,
+      "relative_pct": -31.338608753986424,
+      "delta": -0.0387578569785382,
+      "delta_pp": -0.0387578569785382,
+      "ci_low": 0.0526567711318767,
+      "ci_high": 0.12036815218214378
+    },
+    {
+      "strategy": "quotation",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "mean": 0.037205336587635286,
+      "baseline_mean": 0.12367446584114239,
+      "relative_pct": -69.91671940154174,
+      "delta": -0.08646912925350711,
+      "delta_pp": -0.08646912925350711,
+      "ci_low": 0.012784076589708825,
+      "ci_high": 0.0689340009142037
+    },
+    {
+      "strategy": "statistics",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "mean": 0.06710249396446048,
+      "baseline_mean": 0.12367446584114239,
+      "relative_pct": -45.74264500915458,
+      "delta": -0.056571971876681906,
+      "delta_pp": -0.056571971876681906,
+      "ci_low": 0.027652579199312178,
+      "ci_high": 0.1159112197404121
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "mean": 0.22872837505222368,
+      "baseline_mean": 0.12367446584114239,
+      "relative_pct": 84.94389565104015,
+      "delta": 0.10505390921108129,
+      "delta_pp": 0.10505390921108129,
+      "ci_low": 0.18835522856453346,
+      "ci_high": 0.276213001869716
+    }
+  ],
+  "paired_cite": [
+    {
+      "strategy": "baseline",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "statistics",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.4375,
+      "ci_low": -0.5833333333333333,
+      "ci_high": -0.2875,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -43.75
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.3416666666666667,
+      "ci_low": -0.5208333333333333,
+      "ci_high": -0.1375,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -34.166666666666664
+    },
+    {
+      "strategy": "quotation",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.4833333333333333,
+      "ci_low": -0.65,
+      "ci_high": -0.3,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -48.33333333333333
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.29166666666666663,
+      "ci_low": 0.13333333333333333,
+      "ci_high": 0.4583333333333333,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": 29.166666666666664
+    },
+    {
+      "strategy": "freshness",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.425,
+      "ci_low": -0.6041666666666667,
+      "ci_high": -0.2333333333333333,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -42.5
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.225,
+      "ci_low": -0.4125,
+      "ci_high": -0.020833333333333336,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -22.5
+    },
+    {
+      "strategy": "baseline",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "statistics",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.4333333333333333,
+      "ci_low": -0.5833333333333333,
+      "ci_high": -0.2833333333333333,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -43.33333333333333
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.3416666666666667,
+      "ci_low": -0.525,
+      "ci_high": -0.14166666666666666,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -34.166666666666664
+    },
+    {
+      "strategy": "quotation",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.475,
+      "ci_low": -0.65,
+      "ci_high": -0.2833333333333333,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -47.5
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.3,
+      "ci_low": 0.13333333333333336,
+      "ci_high": 0.4666666666666667,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": 30.0
+    },
+    {
+      "strategy": "freshness",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.4333333333333333,
+      "ci_low": -0.6083333333333333,
+      "ci_high": -0.24166666666666664,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -43.33333333333333
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.225,
+      "ci_low": -0.4083333333333333,
+      "ci_high": -0.025,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -22.5
+    },
+    {
+      "strategy": "baseline",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "statistics",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.4416666666666667,
+      "ci_low": -0.5916666666666667,
+      "ci_high": -0.29166666666666663,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -44.16666666666667
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.3416666666666667,
+      "ci_low": -0.525,
+      "ci_high": -0.13333333333333333,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -34.166666666666664
+    },
+    {
+      "strategy": "quotation",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.4916666666666667,
+      "ci_low": -0.65,
+      "ci_high": -0.31666666666666665,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -49.16666666666667
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.2833333333333333,
+      "ci_low": 0.125,
+      "ci_high": 0.45,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": 28.333333333333332
+    },
+    {
+      "strategy": "freshness",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.4166666666666667,
+      "ci_low": -0.6,
+      "ci_high": -0.21666666666666665,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -41.66666666666667
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.225,
+      "ci_low": -0.425,
+      "ci_high": -0.008333333333333333,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -22.5
+    }
+  ],
+  "paired_pawc": [
+    {
+      "strategy": "baseline",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "statistics",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.06027191764856375,
+      "ci_low": -0.09067236277635665,
+      "ci_high": -0.029075642077395998,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.06027191764856375
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.05757052504249309,
+      "ci_low": -0.09599603343991334,
+      "ci_high": -0.02017797666033195,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.05757052504249309
+    },
+    {
+      "strategy": "quotation",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.08803023397548228,
+      "ci_low": -0.1254561346867129,
+      "ci_high": -0.050605373276122356,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.08803023397548228
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.09656744648454418,
+      "ci_low": 0.05226884173142356,
+      "ci_high": 0.1428092062229942,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": 0.09656744648454418
+    },
+    {
+      "strategy": "freshness",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.07423201341949051,
+      "ci_low": -0.10846169253727642,
+      "ci_high": -0.03933439244003687,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.07423201341949051
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.04674790125117993,
+      "ci_low": -0.0865244340120842,
+      "ci_high": -0.00705009070771565,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.04674790125117993
+    },
+    {
+      "strategy": "baseline",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "statistics",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.0639718634204456,
+      "ci_low": -0.09297439001802163,
+      "ci_high": -0.03370773839128542,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.0639718634204456
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.060353676020392134,
+      "ci_low": -0.09912511418662437,
+      "ci_high": -0.023672718350051154,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.060353676020392134
+    },
+    {
+      "strategy": "quotation",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.08959133869745742,
+      "ci_low": -0.1271510055159429,
+      "ci_high": -0.05278348971888243,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.08959133869745742
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.08808098375800708,
+      "ci_low": 0.042096526813968395,
+      "ci_high": 0.13603244219401595,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": 0.08808098375800708
+    },
+    {
+      "strategy": "freshness",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.0776940796101052,
+      "ci_low": -0.11091805867571722,
+      "ci_high": -0.04396105545402483,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.0776940796101052
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.05473794552382165,
+      "ci_low": -0.09432949136576886,
+      "ci_high": -0.015369508045912297,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.05473794552382165
+    },
+    {
+      "strategy": "baseline",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "statistics",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.05657197187668191,
+      "ci_low": -0.09042398028941703,
+      "ci_high": -0.022236859489656157,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.05657197187668191
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.05478737406459404,
+      "ci_low": -0.09630255915366312,
+      "ci_high": -0.014418490412468735,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.05478737406459404
+    },
+    {
+      "strategy": "quotation",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.08646912925350711,
+      "ci_low": -0.1256314533257894,
+      "ci_high": -0.04681150366940613,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.08646912925350711
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.1050539092110813,
+      "ci_low": 0.05933750912570185,
+      "ci_high": 0.15611644877107295,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": 0.1050539092110813
+    },
+    {
+      "strategy": "freshness",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.07076994722887582,
+      "ci_low": -0.10678374333877358,
+      "ci_high": -0.033108826571108314,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": -0.07076994722887582
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "zai-org/GLM-4.5-Air",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.0387578569785382,
+      "ci_low": -0.08098351862159692,
+      "ci_high": 0.0041388351988704344,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": -0.0387578569785382
+    }
+  ],
+  "paired_frozen_cite": [
+    {
+      "strategy": "baseline",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "statistics",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.025,
+      "ci_low": 0.0,
+      "ci_high": 0.075,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 2.5
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": -0.075,
+      "ci_high": 0.075,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "quotation",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": -0.075,
+      "ci_high": 0.075,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": -0.1,
+      "ci_high": 0.1,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "freshness",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.075,
+      "ci_low": -0.175,
+      "ci_high": 0.025,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": -7.5
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.025,
+      "ci_low": -0.125,
+      "ci_high": 0.075,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": -2.5
+    },
+    {
+      "strategy": "baseline",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "statistics",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.025,
+      "ci_low": 0.0,
+      "ci_high": 0.075,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 2.5
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": -0.075,
+      "ci_high": 0.075,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "quotation",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": -0.075,
+      "ci_high": 0.075,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": -0.1,
+      "ci_high": 0.1,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "freshness",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.075,
+      "ci_low": -0.175,
+      "ci_high": 0.025,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": -7.5
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "cite_rate",
+      "n": 40,
+      "mean": -0.025,
+      "ci_low": -0.125,
+      "ci_high": 0.075,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": -2.5
+    }
+  ],
+  "paired_frozen_pawc": [
+    {
+      "strategy": "baseline",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "statistics",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.015089244205965307,
+      "ci_low": -0.003918899877897032,
+      "ci_high": 0.03866761687284927,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.015089244205965307
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.01408725891582007,
+      "ci_low": -0.006685575062514435,
+      "ci_high": 0.03798330986761426,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.01408725891582007
+    },
+    {
+      "strategy": "quotation",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.0036248087272728936,
+      "ci_low": -0.030571932542786145,
+      "ci_high": 0.02130548458355952,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": -0.0036248087272728936
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.01804800019420105,
+      "ci_low": -0.003931452737681356,
+      "ci_high": 0.040627551415965,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.01804800019420105
+    },
+    {
+      "strategy": "freshness",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.006058661587144169,
+      "ci_low": -0.02733968731140542,
+      "ci_high": 0.013655944695906813,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": -0.006058661587144169
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.011607355238507379,
+      "ci_low": -0.043857685103943556,
+      "ci_high": 0.020140656879293565,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": -0.011607355238507379
+    },
+    {
+      "strategy": "baseline",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.0
+    },
+    {
+      "strategy": "statistics",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.015089244205965307,
+      "ci_low": -0.003918899877897032,
+      "ci_high": 0.03866761687284927,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.015089244205965307
+    },
+    {
+      "strategy": "cite_sources",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.01408725891582007,
+      "ci_low": -0.006685575062514435,
+      "ci_high": 0.03798330986761426,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.01408725891582007
+    },
+    {
+      "strategy": "quotation",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.0036248087272728936,
+      "ci_low": -0.030571932542786145,
+      "ci_high": 0.02130548458355952,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": -0.0036248087272728936
+    },
+    {
+      "strategy": "structured_faq",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": 0.01804800019420105,
+      "ci_low": -0.003931452737681356,
+      "ci_high": 0.040627551415965,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": 0.01804800019420105
+    },
+    {
+      "strategy": "freshness",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.006058661587144169,
+      "ci_low": -0.02733968731140542,
+      "ci_high": 0.013655944695906813,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": -0.006058661587144169
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "metric": "imp_pwc",
+      "n": 40,
+      "mean": -0.011607355238507379,
+      "ci_low": -0.043857685103943556,
+      "ci_high": 0.020140656879293565,
+      "n_boot": 2000,
+      "excludes_zero": false,
+      "delta_pp": -0.011607355238507379
+    }
+  ],
+  "paired_test_vs_baseline": {
+    "strategy": "structured_faq",
+    "cite_rate": {
+      "strategy": "structured_faq",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 10,
+      "mean": 0.36666666666666664,
+      "ci_low": 0.033333333333333326,
+      "ci_high": 0.7,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": 36.666666666666664
+    },
+    "imp_pwc": {
+      "strategy": "structured_faq",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 10,
+      "mean": 0.10536582759212035,
+      "ci_low": 0.019902801766352098,
+      "ci_high": 0.21073608751978984,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": 0.10536582759212035
+    }
+  },
+  "paired_train_vs_baseline": {
+    "strategy": "structured_faq",
+    "cite_rate": {
+      "strategy": "structured_faq",
+      "model": "pooled",
+      "metric": "cite_rate",
+      "n": 30,
+      "mean": 0.26666666666666666,
+      "ci_low": 0.08888888888888889,
+      "ci_high": 0.45555555555555555,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": 26.666666666666668
+    },
+    "imp_pwc": {
+      "strategy": "structured_faq",
+      "model": "pooled",
+      "metric": "imp_pwc",
+      "n": 30,
+      "mean": 0.0936346527820188,
+      "ci_low": 0.04552980684167611,
+      "ci_high": 0.1496782510597913,
+      "n_boot": 2000,
+      "excludes_zero": true,
+      "delta_pp": 0.0936346527820188
+    }
+  },
+  "cite_given_retrieved": [
+    {
+      "strategy": "baseline",
+      "n_questions": 28,
+      "n_rows": 168,
+      "cite_rate": {
+        "n": 28,
+        "mean": 0.9404761904761905,
+        "ci_low": 0.880952380952381,
+        "ci_high": 0.9880952380952381,
+        "n_boot": 2000
+      }
+    },
+    {
+      "strategy": "statistics",
+      "n_questions": 9,
+      "n_rows": 54,
+      "cite_rate": {
+        "n": 9,
+        "mean": 0.9814814814814815,
+        "ci_low": 0.9444444444444444,
+        "ci_high": 1.0,
+        "n_boot": 2000
+      }
+    },
+    {
+      "strategy": "cite_sources",
+      "n_questions": 13,
+      "n_rows": 78,
+      "cite_rate": {
+        "n": 13,
+        "mean": 0.9743589743589743,
+        "ci_low": 0.9230769230769231,
+        "ci_high": 1.0,
+        "n_boot": 2000
+      }
+    },
+    {
+      "strategy": "quotation",
+      "n_questions": 7,
+      "n_rows": 42,
+      "cite_rate": {
+        "n": 7,
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "n_boot": 2000
+      }
+    },
+    {
+      "strategy": "structured_faq",
+      "n_questions": 40,
+      "n_rows": 240,
+      "cite_rate": {
+        "n": 40,
+        "mean": 0.95,
+        "ci_low": 0.8791666666666667,
+        "ci_high": 1.0,
+        "n_boot": 2000
+      }
+    },
+    {
+      "strategy": "freshness",
+      "n_questions": 10,
+      "n_rows": 60,
+      "cite_rate": {
+        "n": 10,
+        "mean": 0.9333333333333333,
+        "ci_low": 0.8666666666666666,
+        "ci_high": 0.9833333333333334,
+        "n_boot": 2000
+      }
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "n_questions": 18,
+      "n_rows": 108,
+      "cite_rate": {
+        "n": 18,
+        "mean": 0.9629629629629629,
+        "ci_low": 0.9074074074074073,
+        "ci_high": 1.0,
+        "n_boot": 2000
+      }
+    }
+  ],
+  "retrieval": [
+    {
+      "strategy": "baseline",
+      "n": 40,
+      "mean_rank": 3.45,
+      "in_topk": 0.7,
+      "rank_better_than_baseline": 0,
+      "rank_worse_than_baseline": 0,
+      "rank_same_as_baseline": 40
+    },
+    {
+      "strategy": "statistics",
+      "n": 40,
+      "mean_rank": 6.175,
+      "in_topk": 0.225,
+      "rank_better_than_baseline": 1,
+      "rank_worse_than_baseline": 29,
+      "rank_same_as_baseline": 10
+    },
+    {
+      "strategy": "cite_sources",
+      "n": 40,
+      "mean_rank": 5.425,
+      "in_topk": 0.325,
+      "rank_better_than_baseline": 6,
+      "rank_worse_than_baseline": 25,
+      "rank_same_as_baseline": 9
+    },
+    {
+      "strategy": "quotation",
+      "n": 40,
+      "mean_rank": 6.375,
+      "in_topk": 0.175,
+      "rank_better_than_baseline": 1,
+      "rank_worse_than_baseline": 30,
+      "rank_same_as_baseline": 9
+    },
+    {
+      "strategy": "structured_faq",
+      "n": 40,
+      "mean_rank": 1.375,
+      "in_topk": 1.0,
+      "rank_better_than_baseline": 25,
+      "rank_worse_than_baseline": 1,
+      "rank_same_as_baseline": 14
+    },
+    {
+      "strategy": "freshness",
+      "n": 40,
+      "mean_rank": 6.125,
+      "in_topk": 0.25,
+      "rank_better_than_baseline": 4,
+      "rank_worse_than_baseline": 28,
+      "rank_same_as_baseline": 8
+    },
+    {
+      "strategy": "keyword_stuffing",
+      "n": 40,
+      "mean_rank": 5.075,
+      "in_topk": 0.45,
+      "rank_better_than_baseline": 8,
+      "rank_worse_than_baseline": 26,
+      "rank_same_as_baseline": 6
+    }
+  ],
+  "factcheck": {
+    "baseline": {
+      "ok": true,
+      "violations": []
+    },
+    "statistics": {
+      "ok": true,
+      "violations": []
+    },
+    "cite_sources": {
+      "ok": true,
+      "violations": []
+    },
+    "quotation": {
+      "ok": true,
+      "violations": []
+    },
+    "structured_faq": {
+      "ok": true,
+      "violations": []
+    },
+    "freshness": {
+      "ok": true,
+      "violations": []
+    },
+    "keyword_stuffing": {
+      "ok": true,
+      "violations": []
+    }
+  },
+  "split": {
+    "seed": 42,
+    "ratio": 0.7,
+    "train_ids": [
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09",
+      "G11",
+      "G12",
+      "G13",
+      "G15",
+      "G16",
+      "G18",
+      "G19",
+      "G20",
+      "G21",
+      "G22",
+      "G23",
+      "G25",
+      "G26",
+      "G27",
+      "G29",
+      "G31",
+      "G32",
+      "G33",
+      "G34",
+      "G35",
+      "G36",
+      "G38",
+      "G40"
+    ],
+    "test_ids": [
+      "G01",
+      "G02",
+      "G10",
+      "G14",
+      "G17",
+      "G24",
+      "G28",
+      "G30",
+      "G37",
+      "G39"
+    ]
+  },
+  "policy": {
+    "by_qtype": {
+      "售后": "structured_faq",
+      "场景": "structured_faq",
+      "对比": "structured_faq",
+      "推荐": "structured_faq",
+      "规格": "structured_faq"
+    },
+    "global_best": "structured_faq",
+    "n_train": 30,
+    "n_test": 10,
+    "scores": {
+      "测试集-基线": {
+        "cite_rate": {
+          "n": 10,
+          "mean": 0.55,
+          "ci_low": 0.25,
+          "ci_high": 0.85,
+          "n_boot": 2000
+        },
+        "imp_pwc": {
+          "n": 10,
+          "mean": 0.11233187662825198,
+          "ci_low": 0.04065999356531703,
+          "ci_high": 0.19369431656899216,
+          "n_boot": 2000
+        }
+      },
+      "测试集-全局最优(structured_faq)": {
+        "cite_rate": {
+          "n": 10,
+          "mean": 0.9166666666666666,
+          "ci_low": 0.75,
+          "ci_high": 1.0,
+          "n_boot": 2000
+        },
+        "imp_pwc": {
+          "n": 10,
+          "mean": 0.21769770422037232,
+          "ci_low": 0.13675783513402046,
+          "ci_high": 0.2971350574895875,
+          "n_boot": 2000
+        }
+      },
+      "测试集-按类型分配": {
+        "cite_rate": {
+          "n": 10,
+          "mean": 0.9166666666666666,
+          "ci_low": 0.75,
+          "ci_high": 1.0,
+          "n_boot": 2000
+        },
+        "imp_pwc": {
+          "n": 10,
+          "mean": 0.21769770422037232,
+          "ci_low": 0.13675783513402046,
+          "ci_high": 0.2971350574895875,
+          "n_boot": 2000
+        }
+      }
+    }
+  },
+  "spend": 9.617151399999997,
+  "n_main": 1680,
+  "n_frozen": 280,
+  "n_failed": 0
+}

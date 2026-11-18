@@ -1,0 +1,11 @@
+﻿id,source_type,site,title,url,pub_date,quote,pain_category,how_opened,verify_http,quote_found_on_page,verified_at,strict_opened,verify_note
+GE01,媒体实测,21世纪经济报道,求证了1028遍AI回复：泛滥的GEO，割了多少韭菜？,https://www.21jingji.com/article/20260330/herald/00c590ea8c0e9d723d1548c7915ff781.html,2026-03-30,57%的广告主没有被任何一款大模型推荐,效果不稳定、难验证,WebFetch,200,yes,2026-11-17 08:16,yes,脚本打开页面并找到引文
+GE02,媒体实测,21世纪经济报道,求证了1028遍AI回复：泛滥的GEO，割了多少韭菜？,https://www.21jingji.com/article/20260330/herald/00c590ea8c0e9d723d1548c7915ff781.html,2026-03-30,87%的GEO内容存在不同程度的伪造背书,内容造假（投毒）,WebFetch,200,yes,2026-11-17 08:16,yes,脚本打开页面并找到引文
+GE03,媒体实测,21世纪经济报道,求证了1028遍AI回复：泛滥的GEO，割了多少韭菜？,https://www.21jingji.com/article/20260330/herald/00c590ea8c0e9d723d1548c7915ff781.html,2026-03-30,GEO可以影响输入，却很难稳定控制大模型的输出,单次结果不可靠,WebFetch,200,yes,2026-11-17 08:16,yes,脚本打开页面并找到引文
+GE04,媒体调查（商家案例）,央广网,GEO服务商乱象：满天飞的“神承诺”，谁在为风险买单,https://tech.cnr.cn/techph/20260612/t20260612_527658004.shtml,2026-06-12,一个月过去，排名只是短暂出现，很快便消失无踪,效果短暂、退款难,WebFetch,200,yes,2026-11-17 08:16,yes,脚本打开页面并找到引文
+GE05,媒体调查（商家案例）,央广网,GEO服务商乱象：满天飞的“神承诺”，谁在为风险买单,https://tech.cnr.cn/techph/20260612/t20260612_527658004.shtml,2026-06-12,这些内容最终是否真正进入AI的知识体系，品牌方往往无从验证,商家无法验证效果,WebFetch,200,yes,2026-11-17 08:16,yes,脚本打开页面并找到引文
+GE06,媒体调查（商家案例）,央广网,GEO服务商乱象：满天飞的“神承诺”，谁在为风险买单,https://tech.cnr.cn/techph/20260612/t20260612_527658004.shtml,2026-06-12,大模型并不像传统搜索引擎那样依赖关键词堆砌,关键词堆砌无效,WebFetch,200,yes,2026-11-17 08:16,yes,脚本打开页面并找到引文
+GE07,从业者自媒体（商家案例）,AMZ123,惨了，GEO排名好，却没询盘，客户要求退款,https://www.amz123.com/t/By27tjHH,2025-12-25,搞了六个月，砸了三万多人民币,曝光≠转化、归因断链,WebFetch,200,yes,2026-11-17 08:16,yes,脚本打开页面并找到引文
+GE08,从业者自媒体（商家案例）,AMZ123,惨了，GEO排名好，却没询盘，客户要求退款,https://www.amz123.com/t/By27tjHH,2025-12-25,传统UTM跟踪断了,归因断链,WebFetch,200,yes,2026-11-17 08:16,yes,脚本打开页面并找到引文
+GE09,媒体报道（从业者）,新华网转北京商报,“3·15”之后 GEO的是非题,https://www.xinhuanet.com/digital/20260408/c1ef4fac451c456f934fd97e333723fd/c.html,2026-04-08,宣称4小时即可让品牌被头部大模型检索,服务商夸大承诺,WebFetch,200,yes,2026-11-17 08:16,yes,脚本打开页面并找到引文
+GE10,媒体暗访,经济观察网转中青在线,AI给你的标准答案，可能是商家花钱买来的,http://www.eeo.com.cn/2026/1112/1091425.shtml,2026-11-12,商家宣称，付费之后，企业、产品就能在AI回答中被优先提及,用户侧信任风险,WebFetch,500,no,2026-11-17 08:16,yes,WebFetch 全文可见（站点对脚本返回 500）；脚本核验未命中

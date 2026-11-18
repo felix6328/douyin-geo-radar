@@ -1,0 +1,60 @@
+# GeoRadar / GeoLab 运行配置。模型必须出现在本账号 GET /v1/models 列表中。
+# 这些都是硅基流动上的裸模型，没有实时搜索，不是豆包、元宝或抖音站内应用。
+
+project: geo
+api:
+  base_url: https://api.siliconflow.cn/v1
+  concurrency: 6
+  spend_cap_cny: 28.0
+
+models:
+  # 三个模型家族，用作「不同生成式平台」的代理。必须在报告里说明：
+  # 它们是无搜索的基础模型，体现的是参数知识与对齐差异，不是真实 GEO 平台流量。
+  platforms:
+    - id: deepseek
+      model: deepseek-ai/DeepSeek-V3.2
+      family: DeepSeek
+      note: 裸模型，无实时搜索
+    - id: qwen
+      model: Qwen/Qwen3.6-35B-A3B
+      family: Qwen
+      note: 裸模型，无实时搜索；请求时关闭 thinking
+    - id: glm
+      model: zai-org/GLM-4.5-Air
+      family: GLM
+      note: 裸模型，无实时搜索
+  extractor: zai-org/GLM-4.5-Air
+  insight: deepseek-ai/DeepSeek-V3.2
+  geolab:
+    - deepseek-ai/DeepSeek-V3.2
+    - zai-org/GLM-4.5-Air
+  strategy_writer: zai-org/GLM-4.5-Air
+
+georadar:
+  n_runs: 2
+  temperature: 0.7
+  max_tokens: 450
+  run_seeds: [11, 23]
+  extractor_temperature: 0.0
+  extractor_max_tokens: 600
+  insight_temperature: 0.2
+  gold_subset_size: 60
+  gold_seed: 42
+  # 计算 SOV / 自发提及率时排除的问题类型（问题本身已含品牌）
+  exclude_qtypes_for_sov: ["品牌对比", "品牌咨询"]
+
+geolab:
+  n_seeds: 3
+  seeds: [7, 17, 29]
+  temperature: 0.4
+  max_tokens: 450
+  top_k: 4
+  # 主实验：内容变更后重新检索（完整管道）
+  # 消融：冻结基线检索顺序，只换目标文档正文（隔离生成效应）
+  frozen_retrieval_ablation:
+    models: [deepseek-ai/DeepSeek-V3.2]
+    seeds: [7]
+  train_ratio: 0.7
+  split_seed: 42
+  target_doc_id: beiyu_nova_air
+  target_brand: 北屿

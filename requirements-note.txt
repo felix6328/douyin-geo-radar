@@ -1,0 +1,2 @@
+开发时使用 Python 3.13、上述 requirements.txt 锁定到运行当时的最新兼容版。
+不依赖 LangChain。密钥只从 .env.local 的 SILICONFLOW_API_KEY 一行读取。

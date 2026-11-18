@@ -1,0 +1,170 @@
+{
+  "n_rows": 900,
+  "n_organic": 720,
+  "n_failed": 0,
+  "mention_any": 0.6152777777777778,
+  "sov_top": [
+    {
+      "brand_id": "sony",
+      "brand_name": "索尼",
+      "sov": 0.0700589970501475,
+      "mention_rate": 0.13194444444444445,
+      "first_position_rate": 0.08611111111111111,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "bose",
+      "brand_name": "Bose",
+      "sov": 0.05457227138643068,
+      "mention_rate": 0.10277777777777777,
+      "first_position_rate": 0.029166666666666667,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "ctrip",
+      "brand_name": "携程",
+      "sov": 0.051622418879056046,
+      "mention_rate": 0.09722222222222222,
+      "first_position_rate": 0.05138888888888889,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "byd",
+      "brand_name": "比亚迪",
+      "sov": 0.045722713864306784,
+      "mention_rate": 0.08611111111111111,
+      "first_position_rate": 0.05,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "tesla",
+      "brand_name": "特斯拉",
+      "sov": 0.03761061946902655,
+      "mention_rate": 0.07083333333333333,
+      "first_position_rate": 0.025,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "apple",
+      "brand_name": "苹果",
+      "sov": 0.03687315634218289,
+      "mention_rate": 0.06944444444444445,
+      "first_position_rate": 0.016666666666666666,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "fliggy",
+      "brand_name": "飞猪",
+      "sov": 0.030973451327433628,
+      "mention_rate": 0.058333333333333334,
+      "first_position_rate": 0.001388888888888889,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "xpeng",
+      "brand_name": "小鹏",
+      "sov": 0.02728613569321534,
+      "mention_rate": 0.05138888888888889,
+      "first_position_rate": 0.0125,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "curel",
+      "brand_name": "珂润",
+      "sov": 0.025811209439528023,
+      "mention_rate": 0.04861111111111111,
+      "first_position_rate": 0.02638888888888889,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "starbucks",
+      "brand_name": "星巴克",
+      "sov": 0.025811209439528023,
+      "mention_rate": 0.04861111111111111,
+      "first_position_rate": 0.03611111111111111,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "nio",
+      "brand_name": "蔚来",
+      "sov": 0.024336283185840708,
+      "mention_rate": 0.04583333333333333,
+      "first_position_rate": 0.013888888888888888,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "official_airline",
+      "brand_name": "航司官网",
+      "sov": 0.02359882005899705,
+      "mention_rate": 0.044444444444444446,
+      "first_position_rate": 0.027777777777777776,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "li",
+      "brand_name": "理想",
+      "sov": 0.022123893805309734,
+      "mention_rate": 0.041666666666666664,
+      "first_position_rate": 0.019444444444444445,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "larocheposay",
+      "brand_name": "理肤泉",
+      "sov": 0.02064896755162242,
+      "mention_rate": 0.03888888888888889,
+      "first_position_rate": 0.020833333333333332,
+      "n_answers": 720
+    },
+    {
+      "brand_id": "huawei",
+      "brand_name": "华为",
+      "sov": 0.01991150442477876,
+      "mention_rate": 0.0375,
+      "first_position_rate": 0.001388888888888889,
+      "n_answers": 720
+    }
+  ],
+  "stability": {
+    "n_groups_with_2plus": 360,
+    "n_pairs": 360,
+    "mean_jaccard": 0.6054276895943562,
+    "mean_first_agree": 0.6166666666666667,
+    "empty_both_pairs": 104
+  },
+  "cross_model_run0": {
+    "run": 0,
+    "models": [
+      "Qwen/Qwen3.6-35B-A3B",
+      "deepseek-ai/DeepSeek-V3.2",
+      "zai-org/GLM-4.5-Air"
+    ],
+    "n_queries": 120,
+    "pairwise_mean_jaccard": {
+      "Qwen/Qwen3.6-35B-A3B||deepseek-ai/DeepSeek-V3.2": 0.6212301587301587,
+      "Qwen/Qwen3.6-35B-A3B||zai-org/GLM-4.5-Air": 0.5200393587893588,
+      "deepseek-ai/DeepSeek-V3.2||zai-org/GLM-4.5-Air": 0.5040079365079365
+    }
+  },
+  "agreement": {
+    "n": 900,
+    "mean_jaccard": 0.8985396825396825,
+    "micro_overlap": 0.804823331463825,
+    "only_rule_mentions": 312,
+    "only_llm_mentions": 36,
+    "intersection_mentions": 1435,
+    "both_empty": 276,
+    "note": "这是规则层与 LLM 抽取层的一致性，不是人工金标准确率。【未经人工审阅】"
+  },
+  "url": {
+    "n_answers": 900,
+    "answers_with_url": 0,
+    "url_rate": 0.0,
+    "n_urls": 0,
+    "n_well_formed": 0
+  },
+  "url_probe": {
+    "n_unique_probed": 0
+  },
+  "spend_cny_process": 4.324086000000005
+}

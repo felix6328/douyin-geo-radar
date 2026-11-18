@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.python-version
+.DS_Store
+.env
+.env.local
+data/cost/*.jsonl
+data/cache/**
+!data/cache/.gitkeep
+!data/cost/.gitkeep
+# live answer caches may contain no secrets but are large; checked-in eval
+# snapshots live under eval/ and data/answers/snapshots/
+.idea/
+.vscode/

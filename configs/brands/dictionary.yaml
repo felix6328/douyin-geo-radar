@@ -1,0 +1,1164 @@
+version: 1
+notes: 品类词典用于规则层抽取。过于泛化的字（如「理想」「苹果」「小米」「后」）必须满足 require_any_nearby 或只用更具区分度的别名。支付/金融品牌故意不收录（支付宝、微信支付、花呗、信用卡等）。merge_into
+  表示该条目命中后并入目标品牌 id。
+categories:
+  skincare:
+    name: 护肤
+    brands:
+    - id: winona
+      name: 薇诺娜
+      aliases:
+      - 薇诺娜
+      - Winona
+      - WINONA
+    - id: larocheposay
+      name: 理肤泉
+      aliases:
+      - 理肤泉
+      - La Roche-Posay
+      - La Roche Posay
+      - 理膚泉
+    - id: estee_lauder
+      name: 雅诗兰黛
+      aliases:
+      - 雅诗兰黛
+      - Estee Lauder
+      - Estée Lauder
+      - 小棕瓶
+    - id: lancome
+      name: 兰蔻
+      aliases:
+      - 兰蔻
+      - Lancôme
+      - Lancome
+      - 小黑瓶
+    - id: skinceuticals
+      name: 修丽可
+      aliases:
+      - 修丽可
+      - SkinCeuticals
+      - 修麗可
+    - id: innisfree
+      name: 悦诗风吟
+      aliases:
+      - 悦诗风吟
+      - Innisfree
+    - id: chando
+      name: 自然堂
+      aliases:
+      - 自然堂
+    - id: proya
+      name: 珀莱雅
+      aliases:
+      - 珀莱雅
+      - Proya
+      - 红宝石精华
+    - id: loreal
+      name: 欧莱雅
+      aliases:
+      - 欧莱雅
+      - L'Oréal
+      - L'Oreal
+      - Loreal
+      - 巴黎欧莱雅
+    - id: avene
+      name: 雅漾
+      aliases:
+      - 雅漾
+      - Avène
+      - Avene
+    - id: skii
+      name: SK-II
+      aliases:
+      - SK-II
+      - SKII
+      - SK-II神仙水
+      - 神仙水
+    - id: shiseido
+      name: 资生堂
+      aliases:
+      - 资生堂
+      - Shiseido
+    - id: freeplus
+      name: 芙丽芳丝
+      aliases:
+      - 芙丽芳丝
+      - Freeplus
+      - 芙麗芳絲
+    - id: curel
+      name: 珂润
+      aliases:
+      - 珂润
+      - Curel
+      - 柯润
+      - 珂潤
+    - id: decorte
+      name: 黛珂
+      aliases:
+      - 黛珂
+      - Decorté
+      - Decorte
+      - COSMe DECORTE
+    - id: kiehls
+      name: 科颜氏
+      aliases:
+      - 科颜氏
+      - Kiehl's
+      - Kiehls
+      - 契爾氏
+    - id: clinique
+      name: 倩碧
+      aliases:
+      - 倩碧
+      - Clinique
+    - id: cerave
+      name: 适乐肤
+      aliases:
+      - 适乐肤
+      - CeraVe
+      - Cerave
+      - 適樂膚
+    - id: theordinary
+      name: The Ordinary
+      aliases:
+      - The Ordinary
+      - ordinary精华
+    - id: paulaschoice
+      name: 宝拉珍选
+      aliases:
+      - 宝拉珍选
+      - Paula's Choice
+      - Paulas Choice
+      - 寶拉珍選
+    - id: herborist
+      name: 佰草集
+      aliases:
+      - 佰草集
+    - id: perfect_diary
+      name: 完美日记
+      aliases:
+      - 完美日记
+      - Perfect Diary
+    - id: florasis
+      name: 花西子
+      aliases:
+      - 花西子
+    - id: saborino
+      name: Saborino
+      aliases:
+      - Saborino
+    - id: haba
+      name: HABA
+      aliases:
+      - HABA
+    - id: laneige
+      name: 兰芝
+      aliases:
+      - 兰芝
+      - Laneige
+    - id: sulwhasoo
+      name: 雪花秀
+      aliases:
+      - 雪花秀
+      - Sulwhasoo
+    - id: whoo
+      name: 后
+      aliases:
+      - 天气丹
+      - The History of Whoo
+      - 后天气丹
+      require_any:
+      - 天气丹
+      - Whoo
+      - 后后
+      - 还幼
+      - 津率享
+    - id: la_mer
+      name: 海蓝之谜
+      aliases:
+      - 海蓝之谜
+      - La Mer
+      - LAMER
+    - id: clarins
+      name: 娇韵诗
+      aliases:
+      - 娇韵诗
+      - Clarins
+    - id: olay
+      name: 玉兰油
+      aliases:
+      - 玉兰油
+      - OLAY
+      - Olay
+      - 小白瓶
+    - id: drwu
+      name: 达尔肤
+      aliases:
+      - 达尔肤
+      - Dr.Wu
+      - Dr.Wu
+    - id: skinfood
+      name: Skin Food
+      aliases:
+      - SkinFood
+      - Skin Food
+    - id: wis
+      name: WIS
+      aliases:
+      - WIS
+    - id: homeocube
+      name: 谷雨
+      aliases:
+      - 谷雨
+    - id: kansa
+      name: 相宜本草
+      aliases:
+      - 相宜本草
+    - id: pechoin
+      name: 百雀羚
+      aliases:
+      - 百雀羚
+    - id: forencos_fuljia
+      name: 敷尔佳
+      aliases:
+      - 敷尔佳
+    - id: collagen
+      name: 可复美
+      aliases:
+      - 可复美
+    - id: springfield
+      name: 春娟
+      aliases:
+      - 春娟
+    - id: aestee
+      name: 芙清
+      aliases:
+      - 芙清密钥
+      - 芙清
+    - id: biohyalux
+      name: 润百颜
+      aliases:
+      - 润百颜
+      - 华熙生物润百颜
+    - id: hbn
+      name: HBN
+      aliases:
+      - HBN
+    - id: unifon
+      name: 御泥坊
+      aliases:
+      - 御泥坊
+    - id: one_leaf
+      name: 一叶子
+      aliases:
+      - 一叶子
+    - id: kanwan
+      name: 瑷尔博士
+      aliases:
+      - 瑷尔博士
+      - Dr.Alva
+  headphones:
+    name: 耳机
+    brands:
+    - id: sony
+      name: 索尼
+      aliases:
+      - 索尼
+      - Sony
+      - SONY
+      - WH-1000XM
+      - WF-1000XM
+      - LinkBuds
+    - id: bose
+      name: Bose
+      aliases:
+      - Bose
+      - BOSE
+      - 博士耳机
+      - QuietComfort
+      - QC Ultra
+      - QC45
+      - QC35
+    - id: apple
+      name: 苹果
+      aliases:
+      - AirPods
+      - AirPods Pro
+      - AirPods Max
+      - 苹果耳机
+      - Apple AirPods
+      exclusion_substrings:
+      - 苹果味
+      - 苹果醋
+      - 苹果汁
+      - 青苹果
+      - 苹果园
+      - 苹果肌
+      - 苹果派
+    - id: apple_brand
+      merge_into: apple
+      name: 苹果
+      aliases:
+      - 苹果
+      require_any_nearby:
+      - 耳机
+      - AirPods
+      - 降噪
+      - 入耳
+      - 头戴
+      - 蓝牙耳机
+      - iPhone
+      exclusion_substrings:
+      - 苹果味
+      - 苹果醋
+      - 苹果汁
+      - 青苹果
+      - 苹果园
+      - 苹果肌
+    - id: huawei
+      name: 华为
+      aliases:
+      - 华为
+      - HUAWEI
+      - Huawei
+      - FreeBuds
+      - FreeLace
+    - id: xiaomi
+      name: 小米
+      aliases:
+      - 小米耳机
+      - Xiaomi Buds
+      - Redmi Buds
+      - 小米Buds
+    - id: xiaomi_brand
+      merge_into: xiaomi
+      name: 小米
+      aliases:
+      - 小米
+      require_any_nearby:
+      - 耳机
+      - Buds
+      - 降噪
+      - 入耳
+      - 头戴
+      - 蓝牙
+      - 翻盖
+      exclusion_substrings:
+      - 小米椒
+      - 小米粥
+      - 小米饼
+      - 小米酒
+      - 小米辣
+    - id: edifier
+      name: 漫步者
+      aliases:
+      - 漫步者
+      - Edifier
+      - EDIFIER
+    - id: sennheiser
+      name: 森海塞尔
+      aliases:
+      - 森海塞尔
+      - Sennheiser
+      - 森海
+      - MOMENTUM
+    - id: shokz
+      name: 韶音
+      aliases:
+      - 韶音
+      - Shokz
+      - AfterShokz
+      - OpenRun
+      - OpenFit
+    - id: 1more
+      name: 万魔
+      aliases:
+      - 万魔
+      - 1MORE
+      - 1More
+    - id: audio_technica
+      name: 铁三角
+      aliases:
+      - 铁三角
+      - Audio-Technica
+      - AudioTechnica
+      - ATH-
+    - id: beyerdynamic
+      name: 拜雅
+      aliases:
+      - 拜雅
+      - 拜亚动力
+      - Beyerdynamic
+      - DT 770
+      - DT770
+    - id: jbl
+      name: JBL
+      aliases:
+      - JBL
+    - id: beats
+      name: Beats
+      aliases:
+      - Beats
+      - Beats Studio
+      - Powerbeats
+    - id: samsung
+      name: 三星
+      aliases:
+      - Galaxy Buds
+      - 三星耳机
+      - Samsung Buds
+    - id: oppo
+      name: OPPO
+      aliases:
+      - OPPO Enco
+      - 欧珀耳机
+      - Enco X
+      - Enco Air
+    - id: oneplus
+      name: 一加
+      aliases:
+      - 一加耳机
+      - OnePlus Buds
+      - 一加 Buds
+    - id: nothing
+      name: Nothing
+      aliases:
+      - Nothing Ear
+      - Nothing耳机
+    - id: soundcore
+      name: 声阔
+      aliases:
+      - 声阔
+      - Soundcore
+      - Anker Soundcore
+      - Liberty 4
+    - id: qcy
+      name: QCY
+      aliases:
+      - QCY
+    - id: haylou
+      name: 嘿喽
+      aliases:
+      - 嘿喽
+      - Haylou
+    - id: skullcandy
+      name: 骷髅头
+      aliases:
+      - 骷髅头
+      - Skullcandy
+    - id: jabra
+      name: 捷波朗
+      aliases:
+      - 捷波朗
+      - Jabra
+    - id: bang
+      name: B&O
+      aliases:
+      - B&O
+      - Bang & Olufsen
+      - Bang&Olufsen
+      - Beoplay
+    - id: akg
+      name: AKG
+      aliases:
+      - AKG
+    - id: dji
+      name: 大疆
+      aliases:
+      - DJI Mic
+      - 大疆耳机
+      - DJI Osmo Audio
+    - id: marshall
+      name: Marshall
+      aliases:
+      - Marshall
+      - 马歇尔耳机
+      - 马歇尔
+    - id: bowers
+      name: 宝华韦健
+      aliases:
+      - 宝华韦健
+      - Bowers & Wilkins
+      - B&W Px
+  nev:
+    name: 新能源车
+    brands:
+    - id: tesla
+      name: 特斯拉
+      aliases:
+      - 特斯拉
+      - Tesla
+      - Model 3
+      - Model Y
+      - Model S
+      - Model X
+      - 特斯拉Model
+    - id: byd
+      name: 比亚迪
+      aliases:
+      - 比亚迪
+      - BYD
+      - 汉EV
+      - 唐DM
+      - 宋PLUS
+      - 海豹
+      - 海豚
+      - 元PLUS
+      - 海狮
+      sub_brands_note: 腾势、仰望、方程豹在词典中并入比亚迪集团，报告里会单独标注若需要可拆
+    - id: denza
+      name: 腾势
+      aliases:
+      - 腾势
+      - Denza
+      - 腾势N7
+      - 腾势N8
+      - 腾势Z9
+    - id: yangwang
+      name: 仰望
+      aliases:
+      - 仰望
+      - 仰望U8
+      - 仰望U9
+      - Yangwang
+    - id: fangchengbao
+      name: 方程豹
+      aliases:
+      - 方程豹
+      - 豹5
+      - 豹8
+      - Fangchengbao
+    - id: li
+      name: 理想
+      aliases:
+      - 理想汽车
+      - 理想L6
+      - 理想L7
+      - 理想L8
+      - 理想L9
+      - 理想MEGA
+      - 理想i6
+      - 理想i8
+      - 理想ONE
+      - Li Auto
+      - Li Xiang
+    - id: li_generic
+      merge_into: li
+      name: 理想
+      aliases:
+      - 理想
+      require_any_nearby:
+      - 汽车
+      - 增程
+      - L6
+      - L7
+      - L8
+      - L9
+      - MEGA
+      - 车
+      - SUV
+      - 冰箱
+      - 理想同学
+    - id: xpeng
+      name: 小鹏
+      aliases:
+      - 小鹏
+      - XPeng
+      - Xpeng
+      - 小鹏P7
+      - 小鹏G6
+      - 小鹏G9
+      - 小鹏MONA
+      - 小鹏X9
+    - id: nio
+      name: 蔚来
+      aliases:
+      - 蔚来
+      - NIO
+      - Nio
+      - 乐道
+      - 萤火虫
+      note: 乐道、萤火虫默认并入蔚来集团，可在报告中分列
+    - id: onvo
+      name: 乐道
+      aliases:
+      - 乐道
+      - ONVO
+      - 乐道L60
+      - 乐道L90
+    - id: firefly
+      name: 萤火虫
+      aliases:
+      - 萤火虫汽车
+      - NIO Firefly
+    - id: aito
+      name: 问界
+      aliases:
+      - 问界
+      - AITO
+      - Aito
+      - 问界M5
+      - 问界M7
+      - 问界M8
+      - 问界M9
+    - id: zhijie
+      name: 智界
+      aliases:
+      - 智界
+      - 智界R7
+      - 智界S7
+    - id: xiangjie
+      name: 享界
+      aliases:
+      - 享界
+      - 享界S9
+    - id: zeekr
+      name: 极氪
+      aliases:
+      - 极氪
+      - Zeekr
+      - ZEEKR
+      - 极氪007
+      - 极氪001
+      - 极氪7X
+      - 极氪9X
+    - id: lynk
+      name: 领克
+      aliases:
+      - 领克
+      - Lynk
+      - 领克08
+      - 领克07
+    - id: geely_galaxy
+      name: 银河
+      aliases:
+      - 吉利银河
+      - 银河E5
+      - 银河E8
+      - 银河L7
+      - 银河星舰
+    - id: galaxy_generic
+      merge_into: geely_galaxy
+      name: 银河
+      aliases:
+      - 银河
+      require_any_nearby:
+      - 汽车
+      - 吉利
+      - E5
+      - E8
+      - 星舰
+      - 车
+    - id: avatr
+      name: 阿维塔
+      aliases:
+      - 阿维塔
+      - Avatr
+      - AVATR
+      - 阿维塔11
+      - 阿维塔12
+      - 阿维塔07
+    - id: deepal
+      name: 深蓝
+      aliases:
+      - 深蓝汽车
+      - 深蓝SL03
+      - 深蓝S7
+      - 深蓝S05
+      - 深蓝L07
+      - Deepal
+    - id: deepal_g
+      merge_into: deepal
+      name: 深蓝
+      aliases:
+      - 深蓝
+      require_any_nearby:
+      - 汽车
+      - SL03
+      - S7
+      - S05
+      - 增程
+      - 车
+      exclusion_substrings:
+      - 深蓝色
+      - 深蓝的
+    - id: im
+      name: 智己
+      aliases:
+      - 智己
+      - IM LS
+      - 智己L6
+      - 智己LS6
+      - 智己LS7
+    - id: xiaomi_auto
+      name: 小米汽车
+      aliases:
+      - 小米汽车
+      - 小米SU7
+      - 小米YU7
+      - SU7
+      - YU7
+    - id: aion
+      name: 埃安
+      aliases:
+      - 埃安
+      - AION
+      - Aion
+      - 昊铂
+      - Hyper
+    - id: leapmotor
+      name: 零跑
+      aliases:
+      - 零跑
+      - Leapmotor
+      - 零跑C10
+      - 零跑C16
+      - 零跑B10
+    - id: neta
+      name: 哪吒
+      aliases:
+      - 哪吒汽车
+      - 哪吒L
+      - 哪吒X
+      - Neta
+    - id: neta_g
+      merge_into: neta
+      name: 哪吒
+      aliases:
+      - 哪吒
+      require_any_nearby:
+      - 汽车
+      - 车
+      - 哪吒L
+      - 哪吒X
+    - id: bmw
+      name: 宝马
+      aliases:
+      - 宝马i
+      - BMW i
+      - iX3
+      - i3
+      - iX
+      - i4
+      - 宝马新能源
+    - id: benz
+      name: 奔驰
+      aliases:
+      - 奔驰EQ
+      - Mercedes EQ
+      - EQE
+      - EQS
+      - EQA
+      - EQB
+    - id: audi
+      name: 奥迪
+      aliases:
+      - 奥迪e-tron
+      - Audi e-tron
+      - 奥迪Q4
+      - Q6 e-tron
+      - 奥迪A6 e-tron
+    - id: vw
+      name: 大众
+      aliases:
+      - 大众ID
+      - ID.3
+      - ID.4
+      - ID.7
+      - ID.UNYX
+      - 与众
+    - id: porsche
+      name: 保时捷
+      aliases:
+      - 保时捷Taycan
+      - Taycan
+      - Macan Electric
+    - id: voyah
+      name: 岚图
+      aliases:
+      - 岚图
+      - VOYAH
+      - 岚图梦想家
+      - 岚图FREE
+    - id: arcfox
+      name: 极狐
+      aliases:
+      - 极狐
+      - Arcfox
+      - 极狐阿尔法
+    - id: jinyang
+      name: 吉利
+      aliases:
+      - 吉利汽车
+      - Geely
+      note: 仅在明确吉利品牌而非银河/极氪时计数
+  coffee:
+    name: 咖啡
+    brands:
+    - id: starbucks
+      name: 星巴克
+      aliases:
+      - 星巴克
+      - Starbucks
+      - 星巴克臻选
+    - id: luckin
+      name: 瑞幸
+      aliases:
+      - 瑞幸
+      - Luckin
+      - 瑞幸咖啡
+    - id: cotti
+      name: 库迪
+      aliases:
+      - 库迪
+      - Cotti
+      - 库迪咖啡
+      - 酷迪
+      exclusion_substrings: []
+    - id: manner
+      name: Manner
+      aliases:
+      - Manner
+      - MANNER
+      - Manner咖啡
+    - id: pct_arabica
+      name: '%Arabica'
+      aliases:
+      - '%Arabica'
+      - '% Arabica'
+      - Arabica咖啡
+      - 百分阿拉伯
+    - id: costa
+      name: Costa
+      aliases:
+      - Costa
+      - COSTA
+      - 科斯塔
+    - id: pacific
+      name: 太平洋咖啡
+      aliases:
+      - 太平洋咖啡
+      - Pacific Coffee
+    - id: mstand
+      name: M Stand
+      aliases:
+      - M Stand
+      - MStand
+      - M-Stand
+    - id: seesaw
+      name: Seesaw
+      aliases:
+      - Seesaw
+      - SEE SAW
+    - id: nowwa
+      name: Nowwa
+      aliases:
+      - Nowwa
+      - 挪瓦
+      - NOWWA
+    - id: lucky
+      name: 幸运咖
+      aliases:
+      - 幸运咖
+    - id: mccafe
+      name: 麦咖啡
+      aliases:
+      - 麦咖啡
+      - McCafé
+      - McCafe
+      - 麦当劳咖啡
+    - id: kcoffee
+      name: K咖啡
+      aliases:
+      - K咖啡
+      - K-Coffee
+      - 肯德基咖啡
+    - id: kfc_g
+      merge_into: kcoffee
+      name: K咖啡
+      aliases:
+      - 肯德基
+      require_any_nearby:
+      - 咖啡
+      - K咖啡
+    - id: peets
+      name: 皮爷
+      aliases:
+      - 皮爷咖啡
+      - Peet's
+      - Peets
+      - 皮爷
+    - id: sanfun
+      name: 三顿半
+      aliases:
+      - 三顿半
+    - id: yongpu
+      name: 永璞
+      aliases:
+      - 永璞
+    - id: sumida
+      name: 隅田川
+      aliases:
+      - 隅田川
+    - id: shicheng
+      name: 时萃
+      aliases:
+      - 时萃
+      - Sisun
+    - id: lian
+      name: 连咖啡
+      aliases:
+      - 连咖啡
+    - id: koea
+      name: 珂斐
+      aliases:
+      - 珂斐
+    - id: timhortons
+      name: Tims
+      aliases:
+      - Tims
+      - Tim Hortons
+      - 蒂姆霍顿
+    - id: bluebottle
+      name: 蓝瓶
+      aliases:
+      - 蓝瓶
+      - Blue Bottle
+    - id: nestle
+      name: 雀巢
+      aliases:
+      - 雀巢咖啡
+      - Nescafe
+      - Nescafé
+      - 雀巢
+    - id: ucc
+      name: UCC
+      aliases:
+      - UCC
+    - id: illy
+      name: illy
+      aliases:
+      - illy
+      - 意利
+    - id: lavazza
+      name: 拉瓦萨
+      aliases:
+      - 拉瓦萨
+      - Lavazza
+    - id: mixue
+      name: 蜜雪冰城
+      aliases:
+      - 蜜雪冰城
+      - 蜜雪咖啡
+      require_any_nearby:
+      - 咖啡
+      - 拿铁
+      - 美式
+      - 冰城咖啡
+    - id: saturnbird
+      merge_into: sanfun
+      name: 三顿半
+      aliases:
+      - Saturnbird
+  travel:
+    name: 旅行
+    brands:
+    - id: ctrip
+      name: 携程
+      aliases:
+      - 携程
+      - Ctrip
+      - Trip.com
+      - 携程旅行
+    - id: qunar
+      name: 去哪儿
+      aliases:
+      - 去哪儿
+      - 去哪儿网
+      - Qunar
+    - id: fliggy
+      name: 飞猪
+      aliases:
+      - 飞猪
+      - Fliggy
+    - id: ly
+      name: 同程
+      aliases:
+      - 同程旅行
+      - 同程
+      - Tongcheng
+      - 艺龙
+      exclusion_substrings:
+      - 同程度
+      - 同成长
+    - id: mafengwo
+      name: 马蜂窝
+      aliases:
+      - 马蜂窝
+      - Mafengwo
+    - id: qyer
+      name: 穷游
+      aliases:
+      - 穷游
+      - Qyer
+    - id: booking
+      name: Booking
+      aliases:
+      - Booking.com
+      - Booking
+      - 缤客
+    - id: airbnb
+      name: 爱彼迎
+      aliases:
+      - 爱彼迎
+      - Airbnb
+      - AirBNB
+    - id: tujia
+      name: 途家
+      aliases:
+      - 途家
+      - Tujia
+    - id: meituan_hotel
+      name: 美团
+      aliases:
+      - 美团酒店
+      - 美团旅行
+      - 美团民宿
+    - id: meituan_g
+      merge_into: meituan_hotel
+      name: 美团
+      aliases:
+      - 美团
+      require_any_nearby:
+      - 酒店
+      - 民宿
+      - 旅行
+      - 门票
+      - 机票
+      - 火车票
+      - 住宿
+      - 景点
+    - id: dianping
+      name: 大众点评
+      aliases:
+      - 大众点评
+      - 点评
+    - id: amap
+      name: 高德
+      aliases:
+      - 高德地图
+      - 高德打车
+      - 高德旅游
+      - 高德
+    - id: baidu_map
+      name: 百度地图
+      aliases:
+      - 百度地图
+    - id: xiaohongshu
+      name: 小红书
+      aliases:
+      - 小红书
+      - RED
+      - 小红书旅行
+    - id: douyin
+      name: 抖音
+      aliases:
+      - 抖音旅行
+      - 抖音门票
+      - 抖音酒店
+    - id: douyin_g
+      merge_into: douyin
+      name: 抖音
+      aliases:
+      - 抖音
+      require_any_nearby:
+      - 旅行
+      - 门票
+      - 酒店
+      - 攻略
+      - 民宿
+      - 景点
+      - 跟团
+    - id: tripadvisor
+      name: Tripadvisor
+      aliases:
+      - Tripadvisor
+      - TripAdvisor
+      - 猫途鹰
+    - id: expedia
+      name: Expedia
+      aliases:
+      - Expedia
+      - 亿客行
+    - id: agoda
+      name: Agoda
+      aliases:
+      - Agoda
+      - 安可达
+    - id: official_airline
+      name: 航司官网
+      aliases:
+      - 航司官网
+      - 航空公司官网
+      - 南航
+      - 东航
+      - 国航
+      - 海航
+      - 春秋航空
+      - 吉祥航空
+      - 厦航
+    - id: csair
+      name: 南方航空
+      aliases:
+      - 南方航空
+      - 南航
+    - id: ceair
+      name: 东方航空
+      aliases:
+      - 东方航空
+      - 东航
+    - id: airchina
+      name: 中国国航
+      aliases:
+      - 中国国航
+      - 国航
+      - Air China
+      exclusion_substrings:
+      - 国际航空法
+      - 国际航空运输
+    - id: tuniu
+      name: 途牛
+      aliases:
+      - 途牛
+      - Tuniu
+    - id: lvmama
+      name: 驴妈妈
+      aliases:
+      - 驴妈妈
+    - id: rail12306
+      name: 铁路12306
+      aliases:
+      - '12306'
+      - 铁路12306
+      - 官方铁路
+    - id: zhixing
+      name: 智行
+      aliases:
+      - 智行火车票
+      - 智行
+    - id: google
+      name: Google
+      aliases:
+      - Google Maps
+      - 谷歌地图
+      - Google Flights
+      - 谷歌航班
+    - id: klook
+      name: Klook
+      aliases:
+      - Klook
+      - 客路
+    - id: kkday
+      name: KKday
+      aliases:
+      - KKday
